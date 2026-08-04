@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Controles — Pollocraft</title>
+<meta name="description" content="Guía de controles del servidor: qué hace cada tecla, el mouse y el control.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌨️</text></svg>">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="keybinds.css">
+<link rel="stylesheet" href="keyboard.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon" aria-hidden="true">⌨️</span>
+      <div>
+        <h1>Controles</h1>
+        <p class="subtitle">Qué hace cada tecla, el mouse y el control</p>
+      </div>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema">🌙</button>
+  </div>
+  <nav class="subnav">
+    <a href="index.html">📖 Los mods</a>
+    <a href="keybinds.html" class="active">⌨️ Controles</a>
+  </nav>
+</header>
+
+<main>
+  <section class="intro">
+    <p class="intro-lead">
+      Todo lo que puedes hacer en el servidor, en un solo lugar. <strong>Pasa el mouse por encima de cualquier
+      tecla o botón</strong> (o tócalo, si estás en el celular) y te dice para qué sirve.
+    </p>
+    <p class="intro-tip">
+      💡 ¿Nuevo por aquí? No hace falta que te aprendas todo. Con moverte, romper y colocar bloques ya puedes jugar —
+      lo demás está aquí para cuando lo necesites.
+    </p>
+  </section>
+
+  <h2 class="section-title">⌨️ Teclado y mouse</h2>
+  <p class="section-help">
+    Las teclas <strong>resaltadas</strong> hacen algo. Las que se ven apagadas están libres.
+  </p>
+
+  <section class="keyboard-section">
+    <div class="keyboard-wrap">
+      <div class="kb-block" id="kb-main"></div>
+      <div class="kb-block" id="kb-nav"></div>
+      <div class="kb-block" id="kb-numpad"></div>
+    </div>
+
+    <div class="mouse-block">
+      <div class="mouse-title">🖱️ Mouse</div>
+      <div class="mouse-wrap">
+        <svg id="mouse-svg" viewBox="0 0 260 390" role="img" aria-label="Diagrama del mouse">
+          <path class="ms-body" d="M 130 12 C 192 12, 234 60, 234 146
+            C 234 258, 214 352, 130 378 C 46 352, 26 258, 26 146
+            C 26 60, 68 12, 130 12 Z"></path>
+          <!-- the shell narrows towards the top, so the buttons are shaped to
+               follow its contour (inset ~7px) instead of being plain rects -->
+          <path class="ms-region" data-code="key.mouse.left"
+                d="M 121 19 C 72 19, 33 64, 33 140 C 33 148, 36 152, 44 152 L 121 152 Z"></path>
+          <path class="ms-region" data-code="key.mouse.right"
+                d="M 139 19 C 188 19, 227 64, 227 140 C 227 148, 224 152, 216 152 L 139 152 Z"></path>
+          <rect class="ms-region ms-wheel" data-code="key.mouse.middle" x="122" y="40" width="16" height="56" rx="8"></rect>
+          <rect class="ms-region ms-side"  data-code="key.mouse.4" x="13" y="170" width="24" height="40" rx="9"></rect>
+          <rect class="ms-region ms-side"  data-code="key.mouse.5" x="13" y="220" width="24" height="40" rx="9"></rect>
+          <line class="ms-seam" x1="130" y1="158" x2="130" y2="200"></line>
+          <text class="ms-label" x="77"  y="112">Izq</text>
+          <text class="ms-label" x="183" y="112">Der</text>
+          <text class="ms-tiny"  x="54"  y="190">4</text>
+          <text class="ms-tiny"  x="54"  y="240">5</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="kb-legend">
+      <span><span class="swatch sw-used"></span> Hace algo</span>
+      <span><span class="swatch sw-multi"></span> Hace varias cosas según dónde estés</span>
+      <span><span class="swatch sw-adv"></span> Solo con F3 (avanzado)</span>
+      <span><span class="swatch sw-free"></span> Libre</span>
+    </div>
+  </section>
+
+  <h2 class="section-title">🎮 Si juegas con control</h2>
+  <p class="section-help">
+    El servidor tiene soporte para mando. Pasa el cursor por cualquier botón para ver qué hace.
+  </p>
+
+  <section class="diagram-section">
+    <div class="gamepad-wrap">
+      <svg id="gamepad-svg" viewBox="0 0 760 520" role="img" aria-label="Diagrama del control">
+        <!-- triggers: drawn first so the body overlaps their lower half -->
+        <rect class="gp-region gp-trigger" data-region="trigger-left"  x="196" y="4" width="104" height="60" rx="26"></rect>
+        <rect class="gp-region gp-trigger" data-region="trigger-right" x="460" y="4" width="104" height="60" rx="26"></rect>
+
+        <!-- controller body: one continuous silhouette, mirrored around x=380 -->
+        <path class="gp-body" d="M 380 50
+          C 310 38, 255 40, 210 54 C 160 70, 128 104, 116 156
+          C 104 210, 100 258, 100 310 C 100 366, 112 424, 138 462
+          C 162 496, 208 500, 234 474 C 260 448, 276 404, 292 366
+          C 306 334, 326 322, 358 320 L 402 320
+          C 434 322, 454 334, 468 366 C 484 404, 500 448, 526 474
+          C 552 500, 598 496, 622 462 C 648 424, 660 366, 660 310
+          C 660 258, 656 210, 644 156 C 632 104, 600 70, 550 54
+          C 505 40, 450 38, 380 50 Z"></path>
+
+        <!-- bumpers, sitting on the top edge -->
+        <rect class="gp-region gp-bumper" data-region="shoulder-left"  x="158" y="70" width="112" height="30" rx="15"></rect>
+        <rect class="gp-region gp-bumper" data-region="shoulder-right" x="490" y="70" width="112" height="30" rx="15"></rect>
+
+        <!-- decorative only -->
+        <circle class="gp-guide" cx="380" cy="112" r="19"></circle>
+        <circle class="gp-well" cx="245" cy="158" r="54"></circle>
+        <circle class="gp-well" cx="460" cy="268" r="50"></circle>
+
+        <!-- sticks: outer ring = movement, inner = the L3/R3 click -->
+        <circle class="gp-region gp-stick" data-region="stick-left" cx="245" cy="158" r="47"></circle>
+        <circle class="gp-region gp-stick-click" data-region="stick-left-click" cx="245" cy="158" r="21"></circle>
+        <circle class="gp-region gp-stick" data-region="stick-right" cx="460" cy="268" r="43"></circle>
+        <circle class="gp-region gp-stick-click" data-region="stick-right-click" cx="460" cy="268" r="19"></circle>
+
+        <!-- back / start -->
+        <circle class="gp-region" data-region="back"  cx="333" cy="158" r="15"></circle>
+        <circle class="gp-region" data-region="start" cx="427" cy="158" r="15"></circle>
+
+        <!-- d-pad: four separate arms, no overlapping hit areas -->
+        <rect class="gp-region" data-region="dpad-up"    x="284" y="222" width="32" height="34" rx="9"></rect>
+        <rect class="gp-region" data-region="dpad-down"  x="284" y="268" width="32" height="34" rx="9"></rect>
+        <rect class="gp-region" data-region="dpad-left"  x="246" y="246" width="34" height="32" rx="9"></rect>
+        <rect class="gp-region" data-region="dpad-right" x="320" y="246" width="34" height="32" rx="9"></rect>
+
+        <!-- face buttons -->
+        <circle class="gp-region" data-region="face-north" cx="520" cy="128" r="24"></circle>
+        <circle class="gp-region" data-region="face-west"  cx="478" cy="168" r="24"></circle>
+        <circle class="gp-region" data-region="face-east"  cx="562" cy="168" r="24"></circle>
+        <circle class="gp-region" data-region="face-south" cx="520" cy="208" r="24"></circle>
+
+        <!-- labels (never clickable, see CSS pointer-events) -->
+        <text class="gp-label" x="248" y="32">LT</text>
+        <text class="gp-label" x="512" y="32">RT</text>
+        <text class="gp-label gp-sm" x="214" y="86">LB</text>
+        <text class="gp-label gp-sm" x="546" y="86">RB</text>
+
+        <text class="gp-letter gp-y" x="520" y="128">Y</text>
+        <text class="gp-letter gp-x" x="478" y="168">X</text>
+        <text class="gp-letter gp-b" x="562" y="168">B</text>
+        <text class="gp-letter gp-a" x="520" y="208">A</text>
+
+        <text class="gp-arrow" x="300" y="240">▲</text>
+        <text class="gp-arrow" x="300" y="286">▼</text>
+        <text class="gp-arrow" x="263" y="263">◀</text>
+        <text class="gp-arrow" x="337" y="263">▶</text>
+
+        <text class="gp-tiny" x="333" y="190">Back</text>
+        <text class="gp-tiny" x="427" y="190">Start</text>
+        <text class="gp-tiny" x="245" y="158">L3</text>
+        <text class="gp-tiny" x="460" y="268">R3</text>
+      </svg>
+    </div>
+  </section>
+
+  <div class="radial-menu-block">
+    <h3>🕹️ Menú rápido del control</h3>
+    <p class="section-help">
+      Mantén presionada la <strong>flecha derecha de la cruceta</strong> y aparece una rueda para elegir una de estas 8 cosas:
+    </p>
+    <ol id="radial-menu-list" class="radial-menu-list"></ol>
+  </div>
+
+  <h2 class="section-title">📋 Buscador de acciones</h2>
+  <p class="section-help">¿Buscas algo en concreto? Escríbelo aquí y te digo qué tecla es.</p>
+
+  <section class="controls">
+    <div class="search-wrap">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input id="search" type="search" placeholder="Ej: mapa, volar, dormir, mochila…" autocomplete="off">
+    </div>
+    <div class="kb-filter-row">
+      <select id="mod-filter" aria-label="Filtrar por mod"></select>
+      <label class="bound-toggle">
+        <input type="checkbox" id="show-unbound">
+        Mostrar también las que no tienen tecla
+      </label>
+    </div>
+  </section>
+
+  <p id="results-count" class="results-count"></p>
+
+  <div id="kb-groups"></div>
+
+  <p id="no-results" class="no-results" hidden>No encontramos nada con esa búsqueda 🤔 Prueba con otra palabra.</p>
+</main>
+
+<footer class="site-footer">
+  <p>Guía de controles del servidor <strong>Pollocraft</strong>. Si algo no te cuadra o cambiaste una tecla en tu juego, avísale al admin.</p>
+</footer>
+
+<script src="hint.js"></script>
+<script src="keybinds-data.js"></script>
+<script src="keybinds.js"></script>
+<script src="keyboard-layout.js"></script>
+<script src="key-bindings-data.js"></script>
+<script src="keyboard.js"></script>
+<script src="controller-data.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>

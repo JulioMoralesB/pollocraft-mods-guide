@@ -1,0 +1,394 @@
+.section-title {
+  font-size: 1.15rem;
+  margin: 26px 2px 4px;
+}
+.section-help {
+  margin: 0 2px 14px;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.mouse-block {
+  margin-top: 20px;
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mouse-title {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.keyboard-section {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  box-sizing: border-box;
+  /* Break out of the narrow <main> column (max-width: 1100px) so the
+     keyboard can use the real viewport width instead of being squeezed.
+     "margin-left: calc(50% - 50vw)" is the standard full-bleed trick: it
+     re-centers on the viewport regardless of how narrow the parent is.
+     No max-width here on purpose — the cap lives on .keyboard-wrap below,
+     so this centering math always stays correct. */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.keyboard-wrap {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.kb-block { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+/* relative width weights so the three blocks scale together instead of
+   the narrower nav/numpad blocks getting crushed when space is tight */
+#kb-main { flex: 15 1 0; }
+#kb-nav { flex: 3 1 0; }
+#kb-numpad { flex: 4 1 0; }
+
+.kb-row { display: flex; gap: 5px; }
+
+.key {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  max-width: 74px;
+  aspect-ratio: 1.15 / 1;
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4px 5px;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  position: relative;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.key:hover, .key:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  outline: none;
+  z-index: 2;
+}
+.key.key-spacer {
+  visibility: hidden;
+  cursor: default;
+  pointer-events: none;
+}
+
+.key .key-physical {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  line-height: 1;
+}
+.key .key-action {
+  font-size: 0.62rem;
+  line-height: 1.15;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/* Key states. "multi" used to be styled as a red conflict warning, but for
+   players a key doing several things is normal (it depends on the screen
+   you're on), so it's a neutral blue now instead of an alarm. */
+.key.state-free { }
+.key.state-used {
+  background: var(--key-used-bg);
+  border-color: var(--key-used-border);
+}
+.key.state-multi {
+  background: var(--key-multi-bg);
+  border-color: var(--key-multi-border);
+}
+.key.state-adv {
+  background: var(--key-adv-bg);
+  border-color: var(--key-adv-border);
+  border-style: dashed;
+}
+.key.state-free .key-action,
+.key.state-adv .key-action { color: var(--text-muted); }
+
+.kb-legend .swatch.sw-used  { background: var(--key-used-bg);  border-color: var(--key-used-border); }
+.kb-legend .swatch.sw-multi { background: var(--key-multi-bg); border-color: var(--key-multi-border); }
+.kb-legend .swatch.sw-adv   { background: var(--key-adv-bg);   border-color: var(--key-adv-border); border-style: dashed; }
+.kb-legend .swatch.sw-free  { background: var(--bg); }
+
+.kb-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.kb-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.kb-legend .swatch { width: 12px; height: 12px; border-radius: 3px; border: 1px solid var(--border); }
+
+/* ---- Floating hint card (hover/tap on any key, mouse or gamepad button) ----
+   Chosen over a modal popup so you can sweep across the diagram and read one
+   button after another without having to close anything. */
+.hint-card {
+  position: fixed;
+  z-index: 200;
+  max-width: 290px;
+  padding: 11px 13px;
+  border-radius: 11px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  box-shadow: var(--card-shadow-hover);
+  pointer-events: none;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.hint-card[hidden] { display: none; }
+
+.hint-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+.hint-note {
+  margin: 0 0 6px;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+.hint-adv { margin-top: 8px; }
+.hint-empty {
+  margin: 0;
+  color: var(--text-muted);
+}
+.hint-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 3px 0;
+}
+.hint-what { flex: 1; }
+.hint-from {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .keyboard-section { padding: 14px; }
+}
+
+.radial-menu-block {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 26px;
+}
+.radial-menu-block h3 { margin: 0 0 4px; font-size: 1rem; }
+.radial-menu-list {
+  margin: 10px 0 0;
+  padding-left: 22px;
+  columns: 2;
+  gap: 20px;
+}
+.radial-menu-list li {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  break-inside: avoid;
+}
+
+@media (max-width: 600px) {
+  .radial-menu-list { columns: 1; }
+}
+
+/* Normal-width card for the diagrams (unlike the full-bleed keyboard, these
+   are small enough that stretching them across the viewport looks silly). */
+.diagram-section {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+}
+@media (max-width: 620px) {
+  .diagram-section { padding: 14px; }
+  /* below this the controller would shrink until the labels are unreadable,
+     so let it scroll sideways instead */
+  #gamepad-svg { min-width: 340px; }
+}
+
+/* ---- Gamepad SVG diagram ---- */
+.gamepad-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#gamepad-svg {
+  width: 100%;
+  max-width: 660px;
+  height: auto;
+}
+/* labels must never swallow clicks meant for the shape underneath */
+#gamepad-svg text,
+#mouse-svg text {
+  pointer-events: none;
+  user-select: none;
+}
+
+.gp-body {
+  fill: var(--bg);
+  stroke: var(--border);
+  stroke-width: 2.5;
+}
+/* purely decorative — the ring around each stick and the "guide" button */
+.gp-well {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 1.5;
+  pointer-events: none;
+}
+.gp-guide {
+  fill: var(--chip-bg);
+  stroke: var(--border);
+  stroke-width: 1.5;
+  pointer-events: none;
+}
+
+.gp-region {
+  fill: var(--chip-bg);
+  stroke: var(--border);
+  stroke-width: 1.5;
+  cursor: pointer;
+  /* No transition on fill/stroke on purpose: these resolve from theme custom
+     properties, and Chromium keeps the transitioned value stuck at the old
+     theme's color when the variable changes, so toggling light/dark left the
+     diagram painted in the previous theme. Instant hover is the safe trade. */
+}
+.gp-region:hover, .gp-region:focus-visible {
+  fill: color-mix(in srgb, var(--accent) 35%, var(--chip-bg));
+  stroke: var(--accent);
+  outline: none;
+}
+.gp-region:focus-visible {
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+
+/* triggers/bumpers read as the "back" of the controller, so they sit darker */
+.gp-trigger, .gp-bumper { fill: var(--border); }
+.gp-stick-click { fill: var(--bg-elevated); }
+
+.gp-label {
+  fill: var(--text);
+  font-size: 17px;
+  font-weight: 700;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+.gp-sm { font-size: 14px; fill: var(--text-muted); }
+
+.gp-letter {
+  font-size: 22px;
+  font-weight: 800;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+.gp-a { fill: #5fae4e; }
+.gp-b { fill: #d9544a; }
+.gp-x { fill: #4a8fd4; }
+.gp-y { fill: #d9ad3c; }
+
+.gp-arrow {
+  fill: var(--text-muted);
+  font-size: 13px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+.gp-tiny {
+  fill: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+/* ---- Mouse SVG diagram ---- */
+.mouse-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#mouse-svg {
+  width: 100%;
+  max-width: 190px;
+  height: auto;
+}
+
+.ms-body {
+  fill: var(--bg);
+  stroke: var(--border);
+  stroke-width: 2.5;
+}
+.ms-seam {
+  stroke: var(--border);
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+.ms-region {
+  fill: var(--chip-bg);
+  stroke: var(--border);
+  stroke-width: 1.5;
+  cursor: pointer;
+  /* see .gp-region — no fill/stroke transition, it breaks theme switching */
+}
+.ms-wheel { fill: var(--border); }
+
+.ms-region:hover, .ms-region:focus-visible {
+  fill: color-mix(in srgb, var(--accent) 35%, var(--chip-bg));
+  stroke: var(--accent);
+  outline: none;
+}
+/* same state palette as the keyboard keys, so the colors mean one thing */
+.ms-region.state-used {
+  fill: var(--key-used-bg);
+  stroke: var(--key-used-border);
+}
+.ms-region.state-adv {
+  fill: var(--key-adv-bg);
+  stroke: var(--key-adv-border);
+}
+.ms-region.state-multi {
+  fill: var(--key-multi-bg);
+  stroke: var(--key-multi-border);
+}
+
+.ms-label {
+  fill: var(--text-muted);
+  font-size: 15px;
+  font-weight: 600;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+.ms-tiny {
+  fill: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los mods — Pollocraft</title>
+<meta name="description" content="Guía de los mods del servidor: qué añade cada uno, explicado en simple.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛏️</text></svg>">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="keybinds.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon" aria-hidden="true">⛏️</span>
+      <div>
+        <h1>Los mods del servidor</h1>
+        <p class="subtitle">Qué añade cada uno, explicado en simple</p>
+      </div>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema">🌙</button>
+  </div>
+  <nav class="subnav">
+    <a href="index.html" class="active">📖 Los mods</a>
+    <a href="keybinds.html">⌨️ Controles</a>
+  </nav>
+</header>
+
+<main>
+  <section class="intro">
+    <p class="intro-lead">
+      El servidor usa <strong id="mod-count">160</strong> mods. Cada uno añade o mejora algo: mejores gráficos, más
+      rendimiento, biomas y estructuras nuevas, comodidades… <strong>Haz clic en cualquiera</strong> para ver qué hace.
+    </p>
+    <p class="intro-tip">
+      💡 No necesitas instalar nada: el modpack te llega listo al entrar al servidor. Esta página es solo para que sepas
+      qué tienes disponible. ¿Buscas qué tecla hace qué? Está en <a href="keybinds.html">Controles</a>.
+    </p>
+  </section>
+
+  <section class="controls">
+    <div class="search-wrap">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input id="search" type="search" placeholder="Buscar un mod por nombre o por lo que hace…" autocomplete="off">
+    </div>
+    <div id="category-filters" class="category-filters" role="group" aria-label="Filtrar por categoría"></div>
+  </section>
+
+  <p id="results-count" class="results-count"></p>
+
+  <section id="mod-grid" class="mod-grid" aria-live="polite"></section>
+
+  <p id="no-results" class="no-results" hidden>No encontramos ningún mod que coincida con tu búsqueda 🤔</p>
+</main>
+
+<!-- Detail overlay -->
+<div id="overlay" class="overlay" hidden>
+  <div class="overlay-backdrop" data-close></div>
+  <div class="detail-card" role="dialog" aria-modal="true" aria-labelledby="detail-name">
+    <button class="close-btn" type="button" data-close aria-label="Cerrar">✕</button>
+    <div class="detail-header">
+      <span id="detail-badge" class="badge"></span>
+      <span id="detail-disabled-badge" class="badge disabled-badge" hidden>⏸️ No activo ahora mismo</span>
+      <h2 id="detail-name"></h2>
+    </div>
+    <p id="detail-desc" class="detail-desc"></p>
+    <p id="detail-authors" class="detail-authors"></p>
+    <a id="detail-modrinth" class="modrinth-link" href="#" target="_blank" rel="noopener noreferrer">
+      <span class="modrinth-icon" aria-hidden="true">◆</span> Ver en Modrinth
+    </a>
+
+    <div class="relations">
+      <div class="relation-block">
+        <h3>⬇️ Se apoya en</h3>
+        <p class="relation-help">Este mod usa estos otros por debajo para funcionar. Puedes ignorarlos, ya vienen incluidos.</p>
+        <div id="detail-depends" class="chip-list"></div>
+      </div>
+      <div class="relation-block">
+        <h3>⬆️ Le da soporte a</h3>
+        <p class="relation-help">Estos mods dependen de él, así que hace su trabajo detrás de cámaras.</p>
+        <div id="detail-required-by" class="chip-list"></div>
+      </div>
+      <div class="relation-block" id="recommends-block">
+        <h3>🤝 Combina bien con</h3>
+        <p class="relation-help">No es obligatorio, pero juntos dan funciones extra.</p>
+        <div id="detail-recommends" class="chip-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Guía del servidor <strong>Pollocraft</strong>. ¿Dudas sobre algún mod? Toca su tarjeta y luego “Ver en Modrinth” para leer más.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
