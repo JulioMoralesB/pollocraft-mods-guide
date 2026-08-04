@@ -234,25 +234,7 @@
     }, 80);
   });
 
-  // ---- Theme toggle ----
-  var themeBtn = document.getElementById("theme-toggle");
-  function applyTheme(theme) {
-    if (theme) {
-      document.documentElement.setAttribute("data-theme", theme);
-    } else {
-      document.documentElement.removeAttribute("data-theme");
-    }
-    themeBtn.textContent = (theme === "dark" || (!theme && matchMedia("(prefers-color-scheme: dark)").matches)) ? "☀️" : "🌙";
-  }
-  var savedTheme = localStorage.getItem("wiki-theme");
-  applyTheme(savedTheme);
-  themeBtn.addEventListener("click", function () {
-    var current = document.documentElement.getAttribute("data-theme");
-    var isDark = current === "dark" || (!current && matchMedia("(prefers-color-scheme: dark)").matches);
-    var next = isDark ? "light" : "dark";
-    localStorage.setItem("wiki-theme", next);
-    applyTheme(next);
-  });
+  // theme toggle now lives in theme.js, shared by every page
 
   // ---- Init ----
   buildFilters();

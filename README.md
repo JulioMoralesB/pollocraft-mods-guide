@@ -10,8 +10,14 @@ técnico.
 
 | Página | Qué muestra |
 | --- | --- |
-| `index.html` | Los 160 mods del servidor, con buscador, categorías, relaciones entre ellos y enlace a Modrinth. |
+| `join.html` | Guía de instalación: instalar Modrinth, importar el modpack y conectarse al servidor, paso a paso. |
+| `index.html` | Los mods del servidor, con buscador, categorías, relaciones entre ellos y enlace a Modrinth. |
 | `keybinds.html` | Teclado, mouse y control en diagramas interactivos: pasas el cursor por una tecla y te dice qué hace. |
+
+`join.html` tiene dos avisos marcados con 🚧 (el link de descarga del modpack y la
+dirección del servidor) porque todavía no están definidos. Cada uno tiene un
+comentario `<!-- TODO: ... -->` justo al lado en el HTML explicando qué poner
+ahí cuando estén listos.
 
 ## Cómo verlo
 
@@ -50,11 +56,14 @@ se escriben a mano:
 ## Estructura
 
 ```
+join.html           Página de instalación
 index.html          Página de mods
 keybinds.html       Página de controles
 style.css           Estilos base y paleta (temas claro y oscuro)
-keybinds.css        Estilos de la página de controles
+keybinds.css        Títulos de sección compartidos entre páginas
 keyboard.css        Diagramas de teclado, mouse y control
+join.css            Estilos propios de la página de instalación
+theme.js            Botón de tema claro/oscuro, compartido por las 3 páginas
 script.js           Lógica de la página de mods
 keybinds.js         Buscador de acciones
 keyboard.js         Teclado y mouse interactivos

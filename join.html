@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cómo unirte — Pollocraft</title>
+<meta name="description" content="Instala el modpack y conéctate al servidor de Pollocraft, paso a paso, sin complicaciones.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="keybinds.css">
+<link rel="stylesheet" href="join.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon" aria-hidden="true">🚀</span>
+      <div>
+        <h1>Cómo unirte</h1>
+        <p class="subtitle">Instala el modpack y conéctate, paso a paso</p>
+      </div>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema">🌙</button>
+  </div>
+  <nav class="subnav">
+    <a href="join.html" class="active">🚀 Cómo unirte</a>
+    <a href="index.html">📖 Los mods</a>
+    <a href="keybinds.html">⌨️ Controles</a>
+  </nav>
+</header>
+
+<main>
+  <section class="intro">
+    <p class="intro-lead">
+      No hace falta que sepas nada de mods ni de Minecraft técnico. Sigue estos pasos en orden y en unos minutos
+      estarás jugando en <strong>Pollocraft</strong>.
+    </p>
+    <p class="intro-tip">
+      💡 Todo se instala con un solo programa (Modrinth App). No tienes que descargar mods uno por uno ni tocar carpetas.
+    </p>
+  </section>
+
+  <h2 class="section-title">✅ Antes de empezar</h2>
+  <p class="section-help">Necesitas estas tres cosas. Revísalas antes de seguir para no atorarte a medias.</p>
+
+  <ul class="checklist">
+    <li><span class="check-icon">🎮</span> <span><strong>Minecraft: Java Edition</strong> comprado y ligado a tu cuenta de Microsoft. (La versión de Bedrock / Windows Store no sirve para esto.)</span></li>
+    <li><span class="check-icon">📋</span> <span><strong>Acceso a la whitelist.</strong> Escríbele al administrador por Discord con tu nombre de usuario de Minecraft para que te agregue — si no estás en la lista, el servidor no te dejará entrar aunque tengas todo lo demás instalado.</span></li>
+    <li><span class="check-icon">⏳</span> <span><strong>Un rato libre</strong> para la descarga e instalación. Depende de tu internet, pero no debería tardar más que instalar un juego normal.</span></li>
+  </ul>
+
+  <h2 class="section-title">1️⃣ Instala Modrinth</h2>
+  <p class="section-help">Modrinth es el programa (launcher) que va a instalar y organizar todo el modpack por ti.</p>
+
+  <div class="step-card">
+    <div class="step-card-head">
+      <span class="step-num">1</span>
+      <h3>Descarga e instala la app</h3>
+    </div>
+    <ol>
+      <li>Entra a <a href="https://modrinth.com/app" target="_blank" rel="noopener noreferrer">modrinth.com/app</a> y descarga la versión para tu sistema operativo.</li>
+      <li>Instálala normalmente — no hace falta cambiar ninguna opción, puedes dejar todo como viene por defecto.</li>
+      <li>Abre la aplicación y da clic en <strong>“Get Started”</strong>.</li>
+    </ol>
+  </div>
+
+  <div class="step-card">
+    <div class="step-card-head">
+      <span class="step-num">2</span>
+      <h3>Inicia sesión con tu cuenta de Minecraft</h3>
+    </div>
+    <ol>
+      <li>Da clic en <strong>“Sign in”</strong> e ingresa los datos de tu cuenta de Microsoft (la misma con la que compraste Minecraft).</li>
+    </ol>
+    <p class="step-note">
+      ⚠️ <strong>Si nunca has iniciado sesión en Minecraft con esa cuenta de Microsoft</strong>, abre primero el launcher
+      oficial de Minecraft, inicia sesión ahí y elige el nombre de usuario que quieras tener en el juego. Si te saltas
+      este paso, el inicio de sesión en Modrinth va a fallar.
+    </p>
+  </div>
+
+  <h2 class="section-title">2️⃣ Instala el modpack</h2>
+  <p class="section-help">Aquí es donde se instalan automáticamente los ~160 mods del servidor, todos de un jalón.</p>
+
+  <div class="step-card">
+    <div class="step-card-head">
+      <span class="step-num">1</span>
+      <h3>Descarga el archivo del modpack</h3>
+    </div>
+    <div class="todo-box">
+      <span class="todo-icon">🚧</span>
+      <div>
+        <strong>Link de descarga pendiente</strong>
+        <p>Todavía no se sube el archivo del modpack. Cuando esté listo (probablemente en Google Drive), este botón
+        va a apuntar directo ahí. Mientras tanto, pide el archivo por Discord.</p>
+      </div>
+    </div>
+    <!-- TODO: cuando subas el modpack, reemplaza el <div class="todo-box">...</div> de
+         arriba por algo como:
+         <a class="btn-primary-link" href="TU_LINK_AQUI" target="_blank" rel="noopener noreferrer">⬇️ Descargar el modpack</a>
+    -->
+  </div>
+
+  <div class="step-card">
+    <div class="step-card-head">
+      <span class="step-num">2</span>
+      <h3>Impórtalo a Modrinth</h3>
+    </div>
+    <ol>
+      <li>En la pantalla principal de Modrinth, da clic en el recuadro con un <strong>“+”</strong>, abajo a la izquierda.</li>
+      <li>Elige la opción <strong>“From File”</strong> (Desde archivo).</li>
+      <li>Selecciona el archivo del modpack que descargaste en el paso anterior.</li>
+      <li>Da clic en <strong>“Import from file”</strong> y espera — el programa va a descargar e instalar todo automáticamente. Puede tardar varios minutos, es normal.</li>
+    </ol>
+    <p class="step-note">Si en algún momento la instalación da un error, avísale al admin con una captura de pantalla.</p>
+  </div>
+
+  <div class="step-card">
+    <div class="step-card-head">
+      <span class="step-num">3</span>
+      <h3>Juega</h3>
+    </div>
+    <ol>
+      <li>Cuando la barra de carga desaparezca, el perfil ya debería mostrar la versión correcta (<code>Fabric 26.2</code>).</li>
+      <li>Da clic en <strong>“Play”</strong>. Minecraft se va a abrir automáticamente con todos los mods ya configurados.</li>
+    </ol>
+  </div>
+
+  <h2 class="section-title">3️⃣ Conéctate al servidor</h2>
+
+  <div class="step-card">
+    <div class="step-card-head">
+      <span class="step-num">1</span>
+      <h3>Agrega el servidor</h3>
+    </div>
+    <ol>
+      <li>Si es tu primera vez con esta versión, puede que aparezca una pantalla de narrador — solo da clic en <strong>“Continue”</strong>.</li>
+      <li>En el menú principal, entra a <strong>“Multiplayer”</strong>.</li>
+      <li>Da clic en <strong>“Add Server”</strong>.</li>
+      <li>En <strong>“Server Name”</strong> pon lo que quieras (ej. “Pollocraft”). En <strong>“Server Address”</strong> pon la dirección de abajo. Luego da clic en <strong>“Done”</strong>.</li>
+    </ol>
+    <div class="todo-box">
+      <span class="todo-icon">🚧</span>
+      <div>
+        <strong>Dirección del servidor pendiente</strong>
+        <p>Todavía no está definida. Pídesela al admin por Discord antes de intentar conectarte.</p>
+      </div>
+    </div>
+    <!-- TODO: cuando tengas la IP/hostname definitivo, reemplaza el todo-box de
+         arriba por algo como:
+         <p class="step-note">La dirección del servidor es: <code>tu.direccion.aqui</code></p>
+    -->
+  </div>
+
+  <div class="step-card">
+    <div class="step-card-head">
+      <span class="step-num">2</span>
+      <h3>Entra a jugar</h3>
+    </div>
+    <ol>
+      <li>El servidor debería aparecer en tu lista. Si está prendido, selecciónalo y da clic en <strong>“Join Server”</strong>.</li>
+    </ol>
+    <p class="step-note">Recuerda que necesitas estar en la whitelist para poder entrar — si el juego te rechaza, probablemente sea por eso.</p>
+  </div>
+
+  <h2 class="section-title">💡 Consejos</h2>
+
+  <div class="tips-list">
+    <div class="tip-item">
+      <span class="tip-icon">🧠</span>
+      <div>
+        <strong>Dale más memoria RAM a Minecraft</strong>
+        Modrinth te deja ajustar cuánta RAM usa el juego, en la configuración del perfil. Si tu compu tiene 8&nbsp;GB,
+        dale unos 3&nbsp;GB; con 16&nbsp;GB, entre 4 y 6&nbsp;GB; con 32&nbsp;GB o más, entre 6 y 8&nbsp;GB. La cantidad se
+        pone en megabytes, así que 4&nbsp;GB se escribe <code>4096</code>.
+      </div>
+    </div>
+    <div class="tip-item">
+      <span class="tip-icon">🎙️</span>
+      <div>
+        <strong>El chat de voz se configura solo</strong>
+        No hace falta que lo prepares antes de entrar. Una vez dentro del juego, presiona <kbd>V</kbd> para elegir tu
+        micrófono y bocinas o audífonos.
+      </div>
+    </div>
+    <div class="tip-item">
+      <span class="tip-icon">📋</span>
+      <div>
+        <strong>Pide la whitelist antes de instalar todo</strong>
+        Así te evitas instalar el modpack completo y descubrir después que no puedes entrar. Escríbele al admin por
+        Discord en cuanto sepas que quieres unirte.
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>Guía de instalación del servidor <strong>Pollocraft</strong>. ¿Algo no te funcionó? Avísale al admin por Discord.</p>
+</footer>
+
+<script src="theme.js"></script>
+</body>
+</html>
