@@ -67,6 +67,32 @@ const MODS = [
     "icon_url": "https://cdn.modrinth.com/data/AVPTFuxC/b65526a05e106c4248b31068e46976492af3eef4_96.webp"
   },
   {
+    "id": "alexsmobs",
+    "name": "Alex's Mobs Continued",
+    "jar": "alexsmobs-2.0.8-fabric+26.2.jar",
+    "enabled": true,
+    "version": "2.0.8",
+    "authors": [
+      "Alexthe668",
+      "Carro1001",
+      "Paint_Ninja",
+      "Lynk",
+      "Codx.io"
+    ],
+    "category": "mobs",
+    "category_label": "Criaturas y Aldeanos",
+    "desc_es": "Agrega decenas de criaturas nuevas, originales y muy detalladas, cada una con su propio comportamiento.",
+    "desc_original": "New, original, engaging, and aesthetic mobs for Minecraft.",
+    "depends": [
+      "fabric-api"
+    ],
+    "required_by": [],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/alexs-mobs-continued",
+    "icon_url": "https://cdn.modrinth.com/data/kYIaHHfw/726a49d0dff25c06c85e76928431673d6a24d29d_96.webp"
+  },
+  {
     "id": "animatica",
     "name": "Animatica Refabricated",
     "jar": "animatica-0.6.3+26.2.jar",
@@ -581,10 +607,33 @@ const MODS = [
       "bobby",
       "chat_heads",
       "dynamic_fps",
-      "voicechat"
+      "voicechat",
+      "voxyserver"
     ],
     "modrinth_url": "https://modrinth.com/mod/cloth-config",
     "icon_url": "https://cdn.modrinth.com/data/9s6osm5g/ed8a2316cbb6f4fc5f510e8e13a59a85cbbbff4d_96.webp"
+  },
+  {
+    "id": "codxlib",
+    "name": "CodxLib",
+    "jar": "codxlib-1.3.6-fabric+26.2.jar",
+    "enabled": true,
+    "version": "1.3.6",
+    "authors": [
+      "codx"
+    ],
+    "category": "lib",
+    "category_label": "Librería técnica",
+    "desc_es": "Librería técnica compartida por los mods de Codx, como Alex's Mobs Continued.",
+    "desc_original": "Shared library for codx mods (Fabric, Forge, NeoForge)",
+    "depends": [
+      "fabric-api"
+    ],
+    "required_by": [],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/codxlib",
+    "icon_url": "https://cdn.modrinth.com/data/6oyMM4yX/2dd9f0d8cde0b81386e1dd85d7f640a770f95fdb_96.webp"
   },
   {
     "id": "collective",
@@ -1425,6 +1474,7 @@ const MODS = [
     "depends": [],
     "required_by": [
       "additionalbanners",
+      "alexsmobs",
       "animatica",
       "appleskin",
       "areas",
@@ -1440,6 +1490,7 @@ const MODS = [
       "bookshelf",
       "chalk",
       "cherishedworlds",
+      "codxlib",
       "collective",
       "combat_roll",
       "continuity",
@@ -1484,6 +1535,7 @@ const MODS = [
       "malilib",
       "mavapi",
       "mavm",
+      "midnightlib",
       "mob_heads",
       "modmenu",
       "more_armor_trims",
@@ -1517,6 +1569,7 @@ const MODS = [
       "puzzleslib",
       "randomvillagenames",
       "reachbehind",
+      "repurposed_structures",
       "resourcefullib",
       "respackopts",
       "rightclickharvest",
@@ -1538,6 +1591,9 @@ const MODS = [
       "villagerapi",
       "villagernames",
       "visuality",
+      "voxy",
+      "voxyserver",
+      "voxyworldgenv2",
       "waystones",
       "worldplaytimereborn",
       "xaerominimap",
@@ -1598,6 +1654,7 @@ const MODS = [
     "required_by": [
       "delightlib",
       "moredelight",
+      "repurposed_structures_farmers_delight_compat",
       "rusticdelight",
       "ubesdelight"
     ],
@@ -1772,7 +1829,8 @@ const MODS = [
       "resourcefullib"
     ],
     "required_by": [
-      "beekeeperhut"
+      "beekeeperhut",
+      "repurposed_structures_friends_and_foes_compat"
     ],
     "recommends": [
       "modmenu",
@@ -1895,6 +1953,26 @@ const MODS = [
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/guard-villagers-(fabricquilt)",
     "icon_url": "https://cdn.modrinth.com/data/59rkB3YY/b95a237f1b05eb3aa8e27b16b756db99d327c37f_96.webp"
+  },
+  {
+    "id": "handful",
+    "name": "Handful",
+    "jar": "handful-26.2+1.1.0-fabric.jar",
+    "enabled": true,
+    "version": "1.1.0",
+    "authors": [
+      "mammut53"
+    ],
+    "category": "visual",
+    "category_label": "Gráficos y Ambientación",
+    "desc_es": "Hace que los objetos que llevas en la mano se vean como se verían tirados en el suelo, con un aspecto más natural.",
+    "desc_original": "Make every item count! Present your stacks in your hand just like they'd appear dropped, giving them a fresh look.",
+    "depends": [],
+    "required_by": [],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/handful",
+    "icon_url": "https://cdn.modrinth.com/data/pOinkRyW/b9c8c4854a76fa41ede651ca9fa18bf3d1dbb88b_96.webp"
   },
   {
     "id": "healingcampfire",
@@ -2218,6 +2296,33 @@ const MODS = [
     "icon_url": "https://cdn.modrinth.com/data/GcWjdA9I/a530ae55df5e0c405f5cf1b3e4fd6163a398bdc3.png"
   },
   {
+    "id": "midnightlib",
+    "name": "MidnightLib",
+    "jar": "midnightlib-fabric-1.9.3+26.2.jar",
+    "enabled": true,
+    "version": "1.9.3",
+    "authors": [
+      "Motschen"
+    ],
+    "category": "lib",
+    "category_label": "Librería técnica",
+    "desc_es": "Librería técnica ligera para pantallas de configuración, usada por Voxy World Gen V2.",
+    "desc_original": "Lightweight config library with config screens and commands.",
+    "depends": [
+      "fabric-api"
+    ],
+    "required_by": [
+      "repurposed_structures"
+    ],
+    "recommends": [],
+    "recommended_by": [
+      "moremobs",
+      "spawnanimations"
+    ],
+    "modrinth_url": "https://modrinth.com/mod/midnightlib",
+    "icon_url": "https://cdn.modrinth.com/data/codAaoxh/76ce92742fea39dadbf9a68a389b4690f10ebd52_96.webp"
+  },
+  {
     "id": "mob_heads",
     "name": "Mob Heads",
     "jar": "mob-heads-v5.1.1.jar",
@@ -2281,6 +2386,7 @@ const MODS = [
       "spawnanimations",
       "status-effect-bars",
       "voicechat",
+      "voxyserver",
       "zoomify"
     ],
     "modrinth_url": "https://modrinth.com/mod/modmenu",
@@ -2440,6 +2546,7 @@ const MODS = [
     "depends": [],
     "required_by": [],
     "recommends": [
+      "midnightlib",
       "modmenu"
     ],
     "recommended_by": [],
@@ -3019,6 +3126,78 @@ const MODS = [
     "icon_url": "https://cdn.modrinth.com/data/Bh37bMuy/icon.png"
   },
   {
+    "id": "repurposed_structures",
+    "name": "Repurposed Structures",
+    "jar": "repurposed_structures-7.7.5+26.2-fabric.jar",
+    "enabled": true,
+    "version": "7.7.5+26.2-fabric",
+    "authors": [
+      "TelepathicGrunt"
+    ],
+    "category": "world",
+    "category_label": "Mundo, Biomas y Estructuras",
+    "desc_es": "Hace que las estructuras vanilla (aldeas, iglús, naufragios, etc.) generen variantes que encajan con el bioma donde aparecen, y añade alguna estructura nueva.",
+    "desc_original": "Adds more variations of vanilla structures and features!",
+    "depends": [
+      "fabric-api",
+      "midnightlib"
+    ],
+    "required_by": [
+      "repurposed_structures_farmers_delight_compat",
+      "repurposed_structures_friends_and_foes_compat"
+    ],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/repurposed-structures-fabric",
+    "icon_url": "https://cdn.modrinth.com/data/muf0XoRe/icon.png"
+  },
+  {
+    "id": "repurposed_structures_farmers_delight_compat",
+    "name": "Repurposed Structures - Farmer's Delight Compat",
+    "jar": "repurposed_structures_farmers_delight_compat_v8.jar",
+    "enabled": true,
+    "version": "8",
+    "authors": [
+      "TelepathicGrunt"
+    ],
+    "category": "world",
+    "category_label": "Mundo, Biomas y Estructuras",
+    "desc_es": "Complemento de Repurposed Structures para que combine con Farmer's Delight.",
+    "desc_original": "One of many compat mod for Repurposed Structures. Requires both Repurposed Structures mod and Farmer's Delight mod to be on.",
+    "depends": [
+      "farmersdelight",
+      "repurposed_structures"
+    ],
+    "required_by": [],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/repurposed-structures-farmers-delight-compat",
+    "icon_url": "https://cdn.modrinth.com/data/P5wB88AS/575dfe8d40918fb9825be29187a79ceaa22509d8_96.webp"
+  },
+  {
+    "id": "repurposed_structures_friends_and_foes_compat",
+    "name": "Repurposed Structures - Friends & Foes Compat",
+    "jar": "repurposed_structures_friends_and_foes_compat_v10.jar",
+    "enabled": true,
+    "version": "10",
+    "authors": [
+      "TelepathicGrunt"
+    ],
+    "category": "world",
+    "category_label": "Mundo, Biomas y Estructuras",
+    "desc_es": "Complemento de Repurposed Structures para que combine con Friends&Foes.",
+    "desc_original": "One of many compat mod for Repurposed Structures. Requires both Repurposed Structures mod and Friends & Foes mod to be on.",
+    "depends": [
+      "friendsandfoes",
+      "repurposed_structures"
+    ],
+    "required_by": [],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/repurposed-structures-friends-and-foes-compat",
+    "icon_url": "https://cdn.modrinth.com/data/UYd23ZmY/84fb4a54d4f484b1093cc43e3b1d18706bd8d470_96.webp"
+  },
+  {
     "id": "respackopts",
     "name": "Resource Pack Options",
     "jar": "respackopts-26.2.0.jar",
@@ -3271,7 +3450,8 @@ const MODS = [
       "nvidium",
       "reeses-sodium-options",
       "sodium-extra",
-      "sspb"
+      "sspb",
+      "voxy"
     ],
     "recommends": [],
     "recommended_by": [
@@ -3344,6 +3524,7 @@ const MODS = [
     "depends": [],
     "required_by": [],
     "recommends": [
+      "midnightlib",
       "modmenu"
     ],
     "recommended_by": [],
@@ -3721,6 +3902,83 @@ const MODS = [
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/visuality",
     "icon_url": "https://cdn.modrinth.com/data/rI0hvYcd/5c866549318e907bbfe0d525afe43cb17a36a481.png"
+  },
+  {
+    "id": "voxy",
+    "name": "Voxy",
+    "jar": "voxy-0.2.18-beta.jar",
+    "enabled": true,
+    "version": "0.2.18-beta",
+    "authors": [
+      "Cortex"
+    ],
+    "category": "perf",
+    "category_label": "Rendimiento",
+    "desc_es": "Muestra el terreno a distancias enormes usando versiones simplificadas (LOD) de los chunks lejanos, sin afectar el rendimiento.",
+    "desc_original": "Far distance rendering mod utilising LoDs",
+    "depends": [
+      "fabric-api",
+      "sodium"
+    ],
+    "required_by": [
+      "voxyserver"
+    ],
+    "recommends": [],
+    "recommended_by": [
+      "voxyworldgenv2"
+    ],
+    "modrinth_url": "https://modrinth.com/mod/voxy",
+    "icon_url": "https://cdn.modrinth.com/data/fxxUqruK/2a4159b1ff6ecba43bf895d6abee6f724a0e03c0_96.webp"
+  },
+  {
+    "id": "voxyworldgenv2",
+    "name": "Voxy World Gen V2",
+    "jar": "Voxy World Gen V2-fabric-26.2-2.4.3.jar",
+    "enabled": true,
+    "version": "2.4.3",
+    "authors": [
+      "iSeeEthan"
+    ],
+    "category": "perf",
+    "category_label": "Rendimiento",
+    "desc_es": "Genera chunks en segundo plano alrededor de los jugadores sin afectar el rendimiento del servidor, para alimentar de terreno a Voxy.",
+    "desc_original": "Optimized passive chunk generation with Voxy integration",
+    "depends": [
+      "fabric-api"
+    ],
+    "required_by": [],
+    "recommends": [
+      "voxy"
+    ],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/voxy-worldgen",
+    "icon_url": "https://cdn.modrinth.com/data/xT0lnNE9/4ae60567dd5687b503ed55227817c433959d5601_96.webp"
+  },
+  {
+    "id": "voxyserver",
+    "name": "VoxyServer",
+    "jar": "VoxyServer-1.2.4-26.2.jar",
+    "enabled": true,
+    "version": "1.2.4",
+    "authors": [
+      "dripps"
+    ],
+    "category": "perf",
+    "category_label": "Rendimiento",
+    "desc_es": "Complemento de servidor para Voxy: convierte los chunks a versiones simplificadas (LOD) y se las transmite a todos los jugadores conectados, sin que cada quien tenga que explorar esa zona primero.",
+    "desc_original": "",
+    "depends": [
+      "fabric-api",
+      "voxy"
+    ],
+    "required_by": [],
+    "recommends": [
+      "cloth-config",
+      "modmenu"
+    ],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/voxyserver",
+    "icon_url": "https://cdn.modrinth.com/data/fNtGd1cx/93fb864b5e98bc72e5392899525f33c0395b4c67_96.webp"
   },
   {
     "id": "waystones",
