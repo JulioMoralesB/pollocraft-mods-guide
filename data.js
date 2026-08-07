@@ -1508,7 +1508,6 @@ const MODS = [
       "paginatedadvancements",
       "particle_effects",
       "patpat",
-      "pickupnotifications",
       "pickupnotifier",
       "pingwheel",
       "player_animation_library",
@@ -2772,28 +2771,6 @@ const MODS = [
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/pick-up-notifier",
     "icon_url": "https://cdn.modrinth.com/data/ZX66K16c/769d7c843339981c1f8e5eec5ff983294a3671fb_96.webp"
-  },
-  {
-    "id": "pickupnotifications",
-    "name": "Pickup Notifications",
-    "jar": "pickupnotifications-fabric-3.0.1+26.2.jar",
-    "enabled": true,
-    "version": "3.0.1+26.2",
-    "authors": [
-      "Roundaround"
-    ],
-    "category": "ui",
-    "category_label": "Interfaz y Comodidad",
-    "desc_es": "Muestra una notificación cuando recoges un objeto.",
-    "desc_original": "Show notifications on item pickup. Built with Allay v0.1.0.",
-    "depends": [
-      "fabric-api"
-    ],
-    "required_by": [],
-    "recommends": [],
-    "recommended_by": [],
-    "modrinth_url": "https://modrinth.com/mod/pickup-notifications",
-    "icon_url": "https://cdn.modrinth.com/data/wWiJfmyy/088756c990194872c2e8827b3d4333f81eaec640_96.webp"
   },
   {
     "id": "pingwheel",
