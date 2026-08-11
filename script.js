@@ -29,8 +29,11 @@
   var searchInput = document.getElementById("search");
   var filtersEl = document.getElementById("category-filters");
   var modCountEl = document.getElementById("mod-count");
+  var modCountEl2 = document.getElementById("mod-count-2");
+  var featuredGrid = document.getElementById("featured-grid");
 
   modCountEl.textContent = MODS.length;
+  if (modCountEl2) modCountEl2.textContent = MODS.length;
 
   function badge(cat) {
     var meta = CATEGORY_META[cat] || { label: cat, icon: "❓", color: "var(--cat-lib)" };
@@ -148,6 +151,18 @@
     return card;
   }
 
+  function renderFeatured() {
+    if (!featuredGrid || typeof FEATURED_IDS === "undefined") return;
+    featuredGrid.innerHTML = "";
+    FEATURED_IDS.forEach(function (id) {
+      var m = byId[id];
+      if (!m) return;
+      var card = renderCard(m);
+      card.classList.add("featured-card");
+      featuredGrid.appendChild(card);
+    });
+  }
+
   // ---- Detail overlay ----
   var overlay = document.getElementById("overlay");
   var detailBadge = document.getElementById("detail-badge");
@@ -237,6 +252,7 @@
   // theme toggle now lives in theme.js, shared by every page
 
   // ---- Init ----
+  renderFeatured();
   buildFilters();
   render();
 

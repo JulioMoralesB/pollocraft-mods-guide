@@ -19,7 +19,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/3dskinlayers",
-    "icon_url": "https://cdn.modrinth.com/data/zV5r3pPn/ff7010d4ec0275609866c8b0f603b25e25949c08_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/zV5r3pPn/ff7010d4ec0275609866c8b0f603b25e25949c08_96.webp",
+    "featured": false
   },
   {
     "id": "lib_5555ff",
@@ -41,7 +42,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/lib-5555ff",
-    "icon_url": "https://cdn.modrinth.com/data/Lr1LVAwO/cd985ec1dd6f6494fd0ccd3a8c2a75db2b85a650.png"
+    "icon_url": "https://cdn.modrinth.com/data/Lr1LVAwO/cd985ec1dd6f6494fd0ccd3a8c2a75db2b85a650.png",
+    "featured": false
   },
   {
     "id": "additionalbanners",
@@ -64,7 +66,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/additional-banners",
-    "icon_url": "https://cdn.modrinth.com/data/AVPTFuxC/b65526a05e106c4248b31068e46976492af3eef4_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/AVPTFuxC/b65526a05e106c4248b31068e46976492af3eef4_96.webp",
+    "featured": false
   },
   {
     "id": "alexsmobs",
@@ -90,7 +93,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/alexs-mobs-continued",
-    "icon_url": "https://cdn.modrinth.com/data/kYIaHHfw/726a49d0dff25c06c85e76928431673d6a24d29d_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/kYIaHHfw/726a49d0dff25c06c85e76928431673d6a24d29d_96.webp",
+    "featured": true
   },
   {
     "id": "animatica",
@@ -114,7 +118,8 @@ const MODS = [
       "optigui"
     ],
     "modrinth_url": "https://modrinth.com/mod/animaticarefabricated",
-    "icon_url": "https://cdn.modrinth.com/data/xEyZuswh/7f2b47384ecac893a320f6863b18cbe69d7852ee_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/xEyZuswh/7f2b47384ecac893a320f6863b18cbe69d7852ee_96.webp",
+    "featured": false
   },
   {
     "id": "appleskin",
@@ -136,7 +141,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/appleskin",
-    "icon_url": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png",
+    "featured": false
   },
   {
     "id": "areas",
@@ -161,7 +167,8 @@ const MODS = [
       "randomvillagenames"
     ],
     "modrinth_url": "https://modrinth.com/mod/areas",
-    "icon_url": "https://cdn.modrinth.com/data/NWvsqJ2Z/ac38a0abdb2ad76c014f3221fa82c649b220f192_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/NWvsqJ2Z/ac38a0abdb2ad76c014f3221fa82c649b220f192_96.webp",
+    "featured": false
   },
   {
     "id": "armorstatues",
@@ -185,7 +192,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/armor-statues",
-    "icon_url": "https://cdn.modrinth.com/data/bbGCtEvb/005eb8a0a3b751e6a595757743a7032353776f44_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/bbGCtEvb/005eb8a0a3b751e6a595757743a7032353776f44_96.webp",
+    "featured": false
   },
   {
     "id": "armored-elytra",
@@ -207,7 +215,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/elytra-armor",
-    "icon_url": "https://cdn.modrinth.com/data/AuFCCYMx/eb028d2db6143709804cd11d0ebe1f1adf52f1c1.png"
+    "icon_url": "https://cdn.modrinth.com/data/AuFCCYMx/eb028d2db6143709804cd11d0ebe1f1adf52f1c1.png",
+    "featured": false
   },
   {
     "id": "axiom",
@@ -229,7 +238,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/axiom",
-    "icon_url": "https://cdn.modrinth.com/data/N6n5dqoA/dd175669d5ac228dc00453d13528ad26c1f056ac.png"
+    "icon_url": "https://cdn.modrinth.com/data/N6n5dqoA/dd175669d5ac228dc00453d13528ad26c1f056ac.png",
+    "featured": false
   },
   {
     "id": "balm",
@@ -253,7 +263,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/balm",
-    "icon_url": "https://cdn.modrinth.com/data/MBAkmtvl/285b7bcfd6e525c043e640b08f3efc0cde90f7dd_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/MBAkmtvl/285b7bcfd6e525c043e640b08f3efc0cde90f7dd_96.webp",
+    "featured": false
   },
   {
     "id": "betterblockentities",
@@ -275,7 +286,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/better-block-entities",
-    "icon_url": "https://cdn.modrinth.com/data/ONZm0H7Y/5ff4f3ad6948a0bf185f641c407878932bae3dcf.png"
+    "icon_url": "https://cdn.modrinth.com/data/ONZm0H7Y/5ff4f3ad6948a0bf185f641c407878932bae3dcf.png",
+    "featured": false
   },
   {
     "id": "bettercombat",
@@ -299,7 +311,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/better-combat",
-    "icon_url": "https://cdn.modrinth.com/data/5sy6g3kz/4d59a2a1ddd25f977b39c89e391edc4cdc7c71ba_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/5sy6g3kz/4d59a2a1ddd25f977b39c89e391edc4cdc7c71ba_96.webp",
+    "featured": true
   },
   {
     "id": "betterstats",
@@ -322,7 +335,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/better-stats",
-    "icon_url": "https://cdn.modrinth.com/data/n6PXGAoM/c5a85914f01be35575abe61c2d19d48e08581034_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/n6PXGAoM/c5a85914f01be35575abe61c2d19d48e08581034_96.webp",
+    "featured": false
   },
   {
     "id": "betterf3",
@@ -348,7 +362,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/betterf3",
-    "icon_url": "https://cdn.modrinth.com//data/8shC1gFX/icon.png"
+    "icon_url": "https://cdn.modrinth.com//data/8shC1gFX/icon.png",
+    "featured": false
   },
   {
     "id": "biomesoplenty",
@@ -373,7 +388,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/biomes-o-plenty",
-    "icon_url": "https://cdn.modrinth.com/data/HXF82T3G/ffb870e12c325b795d54833f8f899126553ef06f.png"
+    "icon_url": "https://cdn.modrinth.com/data/HXF82T3G/ffb870e12c325b795d54833f8f899126553ef06f.png",
+    "featured": true
   },
   {
     "id": "boatiview",
@@ -395,7 +411,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/boat-item-view",
-    "icon_url": "https://cdn.modrinth.com/data/BdKIyOLe/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/BdKIyOLe/icon.png",
+    "featured": false
   },
   {
     "id": "bobby",
@@ -418,7 +435,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/bobby",
-    "icon_url": "https://cdn.modrinth.com/data/M08ruV16/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/M08ruV16/icon.png",
+    "featured": false
   },
   {
     "id": "bookshelf",
@@ -443,7 +461,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/bookshelf-lib",
-    "icon_url": "https://cdn.modrinth.com/data/uy4Cnpcm/002e73d916fb63c9c85e212ac47fde4ef9c4a65f.png"
+    "icon_url": "https://cdn.modrinth.com/data/uy4Cnpcm/002e73d916fb63c9c85e212ac47fde4ef9c4a65f.png",
+    "featured": false
   },
   {
     "id": "bookshelfinspector",
@@ -463,7 +482,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/bookshelf-inspector",
-    "icon_url": "https://cdn.modrinth.com/data/rOrXjyPb/7f920a6acea4b0cbf065184f652ef1afc3a03824_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/rOrXjyPb/7f920a6acea4b0cbf065184f652ef1afc3a03824_96.webp",
+    "featured": false
   },
   {
     "id": "fullscreenfix",
@@ -483,7 +503,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/borderless-fullscreen",
-    "icon_url": "https://cdn.modrinth.com/data/UIexcMP1/2d578a1f4d4bebebf19c7847eb9a1575a8a0b825_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/UIexcMP1/2d578a1f4d4bebebf19c7847eb9a1575a8a0b825_96.webp",
+    "featured": false
   },
   {
     "id": "chalk",
@@ -507,7 +528,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/chalk",
-    "icon_url": "https://cdn.modrinth.com/data/OrtjXTCH/70c0d9eeb8aabac3fb6a9f5c4235356a13438b2a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/OrtjXTCH/70c0d9eeb8aabac3fb6a9f5c4235356a13438b2a_96.webp",
+    "featured": false
   },
   {
     "id": "chat_heads",
@@ -530,7 +552,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/chat-heads",
-    "icon_url": "https://cdn.modrinth.com/data/Wb5oqrBJ/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/Wb5oqrBJ/icon.png",
+    "featured": false
   },
   {
     "id": "chatanimation",
@@ -550,7 +573,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/chatanimation",
-    "icon_url": "https://cdn.modrinth.com/data/DnNYdJsx/f6b2002ed12e72c4d74d56b80fe768ae96cd4d24_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/DnNYdJsx/f6b2002ed12e72c4d74d56b80fe768ae96cd4d24_96.webp",
+    "featured": false
   },
   {
     "id": "cherishedworlds",
@@ -572,7 +596,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/cherished-worlds",
-    "icon_url": "https://cdn.modrinth.com/data/3azQ6p0W/14d3a7430f4e834fc0a86d228c6e17e5b9b33a0a.png"
+    "icon_url": "https://cdn.modrinth.com/data/3azQ6p0W/14d3a7430f4e834fc0a86d228c6e17e5b9b33a0a.png",
+    "featured": false
   },
   {
     "id": "cloth-config",
@@ -611,7 +636,8 @@ const MODS = [
       "voxyserver"
     ],
     "modrinth_url": "https://modrinth.com/mod/cloth-config",
-    "icon_url": "https://cdn.modrinth.com/data/9s6osm5g/ed8a2316cbb6f4fc5f510e8e13a59a85cbbbff4d_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/9s6osm5g/ed8a2316cbb6f4fc5f510e8e13a59a85cbbbff4d_96.webp",
+    "featured": false
   },
   {
     "id": "codxlib",
@@ -633,7 +659,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/codxlib",
-    "icon_url": "https://cdn.modrinth.com/data/6oyMM4yX/2dd9f0d8cde0b81386e1dd85d7f640a770f95fdb_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/6oyMM4yX/2dd9f0d8cde0b81386e1dd85d7f640a770f95fdb_96.webp",
+    "featured": false
   },
   {
     "id": "collective",
@@ -661,7 +688,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/collective",
-    "icon_url": "https://cdn.modrinth.com/data/e0M1UDsY/f5e4fe9ac298e2c14591920d6bda937c566accd0_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/e0M1UDsY/f5e4fe9ac298e2c14591920d6bda937c566accd0_96.webp",
+    "featured": false
   },
   {
     "id": "combat_roll",
@@ -685,7 +713,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/combat-roll",
-    "icon_url": "https://cdn.modrinth.com/data/wGKYL7st/0958df960eca663066fa1cd821e75ff9c44ab716_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/wGKYL7st/0958df960eca663066fa1cd821e75ff9c44ab716_96.webp",
+    "featured": true
   },
   {
     "id": "continuity",
@@ -707,7 +736,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/continuity",
-    "icon_url": "https://cdn.modrinth.com/data/1IjD5062/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/1IjD5062/icon.png",
+    "featured": false
   },
   {
     "id": "controlify",
@@ -733,7 +763,8 @@ const MODS = [
       "reeses-sodium-options"
     ],
     "modrinth_url": "https://modrinth.com/mod/controlify",
-    "icon_url": "https://cdn.modrinth.com/data/DOUdJVEm/5a6c126c4c761ba3e8e9d3ef09a68e16ff60ff22_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/DOUdJVEm/5a6c126c4c761ba3e8e9d3ef09a68e16ff60ff22_96.webp",
+    "featured": false
   },
   {
     "id": "controlling",
@@ -756,7 +787,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/controlling",
-    "icon_url": "https://cdn.modrinth.com/data/xv94TkTM/bdb6feb3d04ca37da4ed5aa73fef062a39d8b3e5_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/xv94TkTM/bdb6feb3d04ca37da4ed5aa73fef062a39d8b3e5_96.webp",
+    "featured": false
   },
   {
     "id": "crash_assistant",
@@ -776,7 +808,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/crash-assistant",
-    "icon_url": "https://cdn.modrinth.com/data/ix1qq8Ux/0850872f4de156ee91a8b1d1f71615cb4615bfa4_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/ix1qq8Ux/0850872f4de156ee91a8b1d1f71615cb4615bfa4_96.webp",
+    "featured": false
   },
   {
     "id": "cratedelight",
@@ -798,7 +831,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/crate-delight",
-    "icon_url": "https://cdn.modrinth.com/data/9rlXSyLg/1451f1af5cc41240ae8bbb166727bd0bdab5c5ab.png"
+    "icon_url": "https://cdn.modrinth.com/data/9rlXSyLg/1451f1af5cc41240ae8bbb166727bd0bdab5c5ab.png",
+    "featured": false
   },
   {
     "id": "cristellib",
@@ -822,7 +856,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/cristel-lib",
-    "icon_url": "https://cdn.modrinth.com/data/cl223EMc/22b1072af55724911840b93a30cf8d3b3fc514bf_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/cl223EMc/22b1072af55724911840b93a30cf8d3b3fc514bf_96.webp",
+    "featured": false
   },
   {
     "id": "cropsloverain",
@@ -845,7 +880,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/crops-love-rain",
-    "icon_url": "https://cdn.modrinth.com/data/cRci7UZp/687479322db0a07de2321d906f1c5330d16b8438_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/cRci7UZp/687479322db0a07de2321d906f1c5330d16b8438_96.webp",
+    "featured": false
   },
   {
     "id": "cutthrough",
@@ -869,7 +905,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/cut-through",
-    "icon_url": "https://cdn.modrinth.com/data/Dk6su9JN/7d3394c6c15bf9bdfe04fd25b317e237feac6c55_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/Dk6su9JN/7d3394c6c15bf9bdfe04fd25b317e237feac6c55_96.webp",
+    "featured": false
   },
   {
     "id": "daycount",
@@ -894,7 +931,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/daycount",
-    "icon_url": "https://cdn.modrinth.com/data/kexckXV1/8831c5374adc79dc1c7a65f496e205bee24bdfc8_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/kexckXV1/8831c5374adc79dc1c7a65f496e205bee24bdfc8_96.webp",
+    "featured": false
   },
   {
     "id": "deathknell",
@@ -918,7 +956,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/death-knell",
-    "icon_url": "https://cdn.modrinth.com/data/WNdd2blX/06babcd20d022c3b79d39f4dd7439f2c3d14f63c_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/WNdd2blX/06babcd20d022c3b79d39f4dd7439f2c3d14f63c_96.webp",
+    "featured": false
   },
   {
     "id": "deleteworldstotrash",
@@ -938,7 +977,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/delete-worlds-to-trash",
-    "icon_url": "https://cdn.modrinth.com/data/7diJQfvM/3ae2012928009cd2ce5a1f629f3ceb4f93b4d244_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/7diJQfvM/3ae2012928009cd2ce5a1f629f3ceb4f93b4d244_96.webp",
+    "featured": false
   },
   {
     "id": "delightlib",
@@ -963,7 +1003,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/delight-lib",
-    "icon_url": "https://cdn.modrinth.com/data/rmDY6fYt/3f8cf9b61d0353d810dd89520c45c19642b33674.png"
+    "icon_url": "https://cdn.modrinth.com/data/rmDY6fYt/3f8cf9b61d0353d810dd89520c45c19642b33674.png",
+    "featured": false
   },
   {
     "id": "detailabreconst",
@@ -988,7 +1029,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/detail-armor-bar-reconstructed",
-    "icon_url": "https://cdn.modrinth.com/data/Si9Uim4y/01f8bfb3455a5c13bdd8bc3402e4779ecf3b7bbe_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/Si9Uim4y/01f8bfb3455a5c13bdd8bc3402e4779ecf3b7bbe_96.webp",
+    "featured": false
   },
   {
     "id": "mr_dungeons_andtaverns",
@@ -1013,7 +1055,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/dungeons-and-taverns",
-    "icon_url": "https://cdn.modrinth.com/data/tpehi7ww/429ba22d212868940cdd82465df949ac51c9791e_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/tpehi7ww/429ba22d212868940cdd82465df949ac51c9791e_96.webp",
+    "featured": true
   },
   {
     "id": "mr_dungeons_andtavernsancientcityoverhaul",
@@ -1036,7 +1079,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/dungeons-and-taverns-ancient-city-overhaul",
-    "icon_url": "https://cdn.modrinth.com/data/DNuNq5bb/7860ffd35ef9e89ff4b7a809d3ebab79a9a4709b_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/DNuNq5bb/7860ffd35ef9e89ff4b7a809d3ebab79a9a4709b_96.webp",
+    "featured": false
   },
   {
     "id": "mr_dungeons_andtavernspillageroutpostoverhaul",
@@ -1060,7 +1104,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/dungeons-and-taverns-pillager-outpost-overhaul",
-    "icon_url": "https://cdn.modrinth.com/data/QIt10I7z/5d53bfb8d8b863b0dba40fdeae12bd9e5914b755_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/QIt10I7z/5d53bfb8d8b863b0dba40fdeae12bd9e5914b755_96.webp",
+    "featured": false
   },
   {
     "id": "mr_dungeons_andtavernsstrongholdoverhaul",
@@ -1084,7 +1129,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/dungeons-and-taverns-stronghold-overhaul",
-    "icon_url": "https://cdn.modrinth.com/data/rYocd2LE/5494b7d3fae40e7909129ddd209ac43f2ed94547_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/rYocd2LE/5494b7d3fae40e7909129ddd209ac43f2ed94547_96.webp",
+    "featured": false
   },
   {
     "id": "mr_dungeons_andtavernsswamphutoverhaul",
@@ -1108,7 +1154,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/dungeons-and-taverns-swamp-hut-overhaul",
-    "icon_url": "https://cdn.modrinth.com/data/nWSeFpQt/4f56e8970c81ee55862a81d7b2e35905c9908c46_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/nWSeFpQt/4f56e8970c81ee55862a81d7b2e35905c9908c46_96.webp",
+    "featured": false
   },
   {
     "id": "durabilitytooltip",
@@ -1131,7 +1178,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/durability-tooltip",
-    "icon_url": "https://cdn.modrinth.com/data/smUP7V3r/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/smUP7V3r/icon.png",
+    "featured": false
   },
   {
     "id": "dynamic_fps",
@@ -1157,7 +1205,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/dynamic-fps",
-    "icon_url": "https://cdn.modrinth.com/data/LQ3K71Q1/5056368d0d87c1a9f3efead0cb48ab39a4ea87bf_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/LQ3K71Q1/5056368d0d87c1a9f3efead0cb48ab39a4ea87bf_96.webp",
+    "featured": false
   },
   {
     "id": "easyshulkerboxes",
@@ -1181,7 +1230,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/easy-shulker-boxes",
-    "icon_url": "https://cdn.modrinth.com/data/gA5euN8S/b317f8c98e0f5c3ad1c53ee5690c0c55c0de8fad_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/gA5euN8S/b317f8c98e0f5c3ad1c53ee5690c0c55c0de8fad_96.webp",
+    "featured": false
   },
   {
     "id": "eclipseui",
@@ -1205,7 +1255,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/eclipseui",
-    "icon_url": "https://cdn.modrinth.com/data/99cGtHRy/34be6e13fc6d04cd70b58632249eb69ab47d8ea7_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/99cGtHRy/34be6e13fc6d04cd70b58632249eb69ab47d8ea7_96.webp",
+    "featured": false
   },
   {
     "id": "elevatorid",
@@ -1228,7 +1279,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/elevatormod",
-    "icon_url": "https://cdn.modrinth.com/data/hi2dSXTu/8ed4be9e8cbef13f333a0c285468379824a83b5e_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/hi2dSXTu/8ed4be9e8cbef13f333a0c285468379824a83b5e_96.webp",
+    "featured": false
   },
   {
     "id": "elytratrails",
@@ -1250,7 +1302,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/elytra-contrails-mod",
-    "icon_url": "https://cdn.modrinth.com/data/dWMHBEAQ/01afeedfb5d6e284ac16261a8728abf4c9bccd54_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/dWMHBEAQ/01afeedfb5d6e284ac16261a8728abf4c9bccd54_96.webp",
+    "featured": false
   },
   {
     "id": "elytratrims",
@@ -1273,7 +1326,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/elytra-trims",
-    "icon_url": "https://cdn.modrinth.com/data/XpzGz7KD/1d33b802dfb5a1b2d25a2490fe1a9df0a681d686_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/XpzGz7KD/1d33b802dfb5a1b2d25a2490fe1a9df0a681d686_96.webp",
+    "featured": false
   },
   {
     "id": "emotecraft",
@@ -1299,7 +1353,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/emotecraft",
-    "icon_url": "https://cdn.modrinth.com/data/pZ2wrerK/eed7e2c9851392e5879c7d7cb763f142f124e6d2_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/pZ2wrerK/eed7e2c9851392e5879c7d7cb763f142f124e6d2_96.webp",
+    "featured": true
   },
   {
     "id": "enchdesc",
@@ -1322,7 +1377,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/enchantment-descriptions",
-    "icon_url": "https://cdn.modrinth.com/data/UVtY3ZAC/1f857baf3d1f78e40343925176c084838c91a891_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/UVtY3ZAC/1f857baf3d1f78e40343925176c084838c91a891_96.webp",
+    "featured": false
   },
   {
     "id": "mr_edf_remastered",
@@ -1344,7 +1400,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/edf-remastered",
-    "icon_url": "https://cdn.modrinth.com/data/HQsBdHGd/285b59efcf0b9cba252b31b6a800afe5cb5113cc_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/HQsBdHGd/285b59efcf0b9cba252b31b6a800afe5cb5113cc_96.webp",
+    "featured": true
   },
   {
     "id": "entity_model_features",
@@ -1366,7 +1423,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/entity-model-features",
-    "icon_url": "https://cdn.modrinth.com/data/4I1XuqiY/6e5bbd0d06b1741bfdab6c0cfab6de8fdaf0064c_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/4I1XuqiY/6e5bbd0d06b1741bfdab6c0cfab6de8fdaf0064c_96.webp",
+    "featured": false
   },
   {
     "id": "entity_texture_features",
@@ -1390,7 +1448,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/entitytexturefeatures",
-    "icon_url": "https://cdn.modrinth.com/data/BVzZfTc1/af683d206d50b05258d865b0d6e4aa2f2cee12f2_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/BVzZfTc1/af683d206d50b05258d865b0d6e4aa2f2cee12f2_96.webp",
+    "featured": false
   },
   {
     "id": "entityculling",
@@ -1412,7 +1471,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/entityculling",
-    "icon_url": "https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp",
+    "featured": false
   },
   {
     "id": "explorify",
@@ -1434,7 +1494,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/explorify",
-    "icon_url": "https://cdn.modrinth.com/data/HSfsxuTo/e036a417f857abd937326db5c131296ad88bad5b_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/HSfsxuTo/e036a417f857abd937326db5c131296ad88bad5b_96.webp",
+    "featured": false
   },
   {
     "id": "explosiveenhancement",
@@ -1456,7 +1517,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/explosive-enhancement",
-    "icon_url": "https://cdn.modrinth.com/data/OSQ8mw2r/88f44e9ed022061b1eb865996b2f98fe01937de6.png"
+    "icon_url": "https://cdn.modrinth.com/data/OSQ8mw2r/88f44e9ed022061b1eb865996b2f98fe01937de6.png",
+    "featured": false
   },
   {
     "id": "fabric-api",
@@ -1609,7 +1671,8 @@ const MODS = [
       "voicechat"
     ],
     "modrinth_url": "https://modrinth.com/mod/fabric-api",
-    "icon_url": "https://cdn.modrinth.com/data/P7dR8mSH/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/P7dR8mSH/icon.png",
+    "featured": false
   },
   {
     "id": "fabric-language-kotlin",
@@ -1633,7 +1696,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/fabric-language-kotlin",
-    "icon_url": "https://cdn.modrinth.com/data/Ha28R6CL/72c3d74aeb665e45aea93a945a01474cbce3b7da_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/Ha28R6CL/72c3d74aeb665e45aea93a945a01474cbce3b7da_96.webp",
+    "featured": false
   },
   {
     "id": "farmersdelight",
@@ -1661,7 +1725,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/farmers-delight-refabricated",
-    "icon_url": "https://cdn.modrinth.com/data/7vxePowz/26e8448993e9bda4dba92b6e7a1a13d9c4333138.png"
+    "icon_url": "https://cdn.modrinth.com/data/7vxePowz/26e8448993e9bda4dba92b6e7a1a13d9c4333138.png",
+    "featured": true
   },
   {
     "id": "ferritecore",
@@ -1681,7 +1746,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/ferrite-core",
-    "icon_url": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
+    "featured": false
   },
   {
     "id": "flashback",
@@ -1703,7 +1769,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/flashback",
-    "icon_url": "https://cdn.modrinth.com/data/4das1Fjq/e81c66aacf2e12c09a95e4f971ea5e2b9f608317_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/4das1Fjq/e81c66aacf2e12c09a95e4f971ea5e2b9f608317_96.webp",
+    "featured": false
   },
   {
     "id": "forgeconfigapiport",
@@ -1738,7 +1805,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/forge-config-api-port",
-    "icon_url": "https://cdn.modrinth.com/data/ohNO6lps/cb3b942cc18a66a0f35f802e004713f134e46cc2_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/ohNO6lps/cb3b942cc18a66a0f35f802e004713f134e46cc2_96.webp",
+    "featured": false
   },
   {
     "id": "formations",
@@ -1762,7 +1830,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/formations",
-    "icon_url": "https://cdn.modrinth.com/data/tPe4xnPd/02786e18fd252e7bd4fb25754f09dfb584d67a2a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/tPe4xnPd/02786e18fd252e7bd4fb25754f09dfb584d67a2a_96.webp",
+    "featured": false
   },
   {
     "id": "formationsnether",
@@ -1784,7 +1853,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/formations-nether",
-    "icon_url": "https://cdn.modrinth.com/data/cGvQGRls/2e21f4c247ad58965c320f037c4febfa9cf827bb_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/cGvQGRls/2e21f4c247ad58965c320f037c4febfa9cf827bb_96.webp",
+    "featured": false
   },
   {
     "id": "freecam",
@@ -1809,7 +1879,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/freecam",
-    "icon_url": "https://cdn.modrinth.com/data/XeEZ3fK2/9529a900a2aa6ed56c1b3167f165bac91b3acd6e_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/XeEZ3fK2/9529a900a2aa6ed56c1b3167f165bac91b3acd6e_96.webp",
+    "featured": false
   },
   {
     "id": "friendsandfoes",
@@ -1838,7 +1909,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/friends-and-foes",
-    "icon_url": "https://cdn.modrinth.com/data/POQ2i9zu/0d5db692d86ca2f99935ebc01123d4c55a714122_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/POQ2i9zu/0d5db692d86ca2f99935ebc01123d4c55a714122_96.webp",
+    "featured": true
   },
   {
     "id": "beekeeperhut",
@@ -1861,7 +1933,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/friends-and-foes-beekeeper-hut-fabric",
-    "icon_url": "https://cdn.modrinth.com/data/Kt4RVKEd/91f7325ef5a1a9a1458a8695dde533225b6188fb_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/Kt4RVKEd/91f7325ef5a1a9a1458a8695dde533225b6188fb_96.webp",
+    "featured": false
   },
   {
     "id": "glitchcore",
@@ -1885,7 +1958,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/glitchcore",
-    "icon_url": "https://cdn.modrinth.com/data/s3dmwKy5/76dd9e7bc737a02b723730ab34f536ab43936980.png"
+    "icon_url": "https://cdn.modrinth.com/data/s3dmwKy5/76dd9e7bc737a02b723730ab34f536ab43936980.png",
+    "featured": false
   },
   {
     "id": "glowing-torchflower",
@@ -1905,7 +1979,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/glowing-torchflower",
-    "icon_url": "https://cdn.modrinth.com/data/1S4LxcvL/1f9c9e25304cd5c32ab9c818863bf3318df98a46.png"
+    "icon_url": "https://cdn.modrinth.com/data/1S4LxcvL/1f9c9e25304cd5c32ab9c818863bf3318df98a46.png",
+    "featured": false
   },
   {
     "id": "gravestones",
@@ -1930,7 +2005,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/pneumono_gravestones",
-    "icon_url": "https://cdn.modrinth.com/data/Heh3BbSv/e10b4d60fb1d7eb24044b8c40f0eec4346e5894a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/Heh3BbSv/e10b4d60fb1d7eb24044b8c40f0eec4346e5894a_96.webp",
+    "featured": false
   },
   {
     "id": "guardvillagers",
@@ -1952,7 +2028,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/guard-villagers-(fabricquilt)",
-    "icon_url": "https://cdn.modrinth.com/data/59rkB3YY/b95a237f1b05eb3aa8e27b16b756db99d327c37f_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/59rkB3YY/b95a237f1b05eb3aa8e27b16b756db99d327c37f_96.webp",
+    "featured": false
   },
   {
     "id": "handful",
@@ -1972,7 +2049,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/handful",
-    "icon_url": "https://cdn.modrinth.com/data/pOinkRyW/b9c8c4854a76fa41ede651ca9fa18bf3d1dbb88b_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/pOinkRyW/b9c8c4854a76fa41ede651ca9fa18bf3d1dbb88b_96.webp",
+    "featured": false
   },
   {
     "id": "healingcampfire",
@@ -1995,7 +2073,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/healing-campfire",
-    "icon_url": "https://cdn.modrinth.com/data/kOuPUitF/b85e2aa910202cffc6a5b9569dbd578480decad8_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/kOuPUitF/b85e2aa910202cffc6a5b9569dbd578480decad8_96.webp",
+    "featured": false
   },
   {
     "id": "immediatelyfast",
@@ -2017,7 +2096,8 @@ const MODS = [
       "controlify"
     ],
     "modrinth_url": "https://modrinth.com/mod/immediatelyfast",
-    "icon_url": "https://cdn.modrinth.com/data/5ZwdcRci/e57b6b451425692ac17ad322d5e14bea686a383a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/5ZwdcRci/e57b6b451425692ac17ad322d5e14bea686a383a_96.webp",
+    "featured": false
   },
   {
     "id": "immersive-hotbar",
@@ -2040,7 +2120,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/immersive-hotbar",
-    "icon_url": "https://cdn.modrinth.com/data/hsPB5xMD/49a1d507980ca08381ae2742db4d674d1e6238c9_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/hsPB5xMD/49a1d507980ca08381ae2742db4d674d1e6238c9_96.webp",
+    "featured": false
   },
   {
     "id": "iris",
@@ -2065,7 +2146,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/iris",
-    "icon_url": "https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp",
+    "featured": false
   },
   {
     "id": "jade",
@@ -2087,7 +2169,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/jade",
-    "icon_url": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+    "featured": true
   },
   {
     "id": "jamlib",
@@ -2111,7 +2194,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/jamlib",
-    "icon_url": "https://cdn.modrinth.com/data/IYY9Siz8/7585f4d35b18467c2d0d9c496e3b7cd4919c413a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/IYY9Siz8/7585f4d35b18467c2d0d9c496e3b7cd4919c413a_96.webp",
+    "featured": false
   },
   {
     "id": "jei",
@@ -2133,7 +2217,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/jei",
-    "icon_url": "https://cdn.modrinth.com/data/u6dRKJwZ/4a3f18ac0d096c9f8e9176984c44be4e58f94c89_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/u6dRKJwZ/4a3f18ac0d096c9f8e9176984c44be4e58f94c89_96.webp",
+    "featured": true
   },
   {
     "id": "libjf",
@@ -2155,7 +2240,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/libjf",
-    "icon_url": "https://cdn.modrinth.com/data/WKwQAwke/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/WKwQAwke/icon.png",
+    "featured": false
   },
   {
     "id": "light-overlay",
@@ -2181,7 +2267,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/lightoverlay",
-    "icon_url": "https://cdn.modrinth.com/data/8qVa1XCN/5025dc7632d51349f30e449638e5fa31f7726758.png"
+    "icon_url": "https://cdn.modrinth.com/data/8qVa1XCN/5025dc7632d51349f30e449638e5fa31f7726758.png",
+    "featured": false
   },
   {
     "id": "litematica",
@@ -2203,7 +2290,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/litematica",
-    "icon_url": "https://cdn.modrinth.com/data/bEpr0Arc/25b5529d7a3b030ac136a6ce879d8ed2a1aa4a8d.png"
+    "icon_url": "https://cdn.modrinth.com/data/bEpr0Arc/25b5529d7a3b030ac136a6ce879d8ed2a1aa4a8d.png",
+    "featured": false
   },
   {
     "id": "lithium",
@@ -2224,7 +2312,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/lithium",
-    "icon_url": "https://cdn.modrinth.com/data/gvQqBUqZ/bcc8686c13af0143adf4285d741256af824f70b7_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/gvQqBUqZ/bcc8686c13af0143adf4285d741256af824f70b7_96.webp",
+    "featured": false
   },
   {
     "id": "lithostitched",
@@ -2246,7 +2335,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/lithostitched",
-    "icon_url": "https://cdn.modrinth.com/data/XaDC71GB/bc3425bcb318176adc7da99b6eec48787eed98d3.png"
+    "icon_url": "https://cdn.modrinth.com/data/XaDC71GB/bc3425bcb318176adc7da99b6eec48787eed98d3.png",
+    "featured": false
   },
   {
     "id": "locator_lodestones",
@@ -2269,7 +2359,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/locator_lodestones",
-    "icon_url": "https://cdn.modrinth.com/data/pMBcsVIg/a54a8981668c595fcad6bd497b763d10d5e18325_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/pMBcsVIg/a54a8981668c595fcad6bd497b763d10d5e18325_96.webp",
+    "featured": false
   },
   {
     "id": "malilib",
@@ -2293,7 +2384,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/malilib",
-    "icon_url": "https://cdn.modrinth.com/data/GcWjdA9I/a530ae55df5e0c405f5cf1b3e4fd6163a398bdc3.png"
+    "icon_url": "https://cdn.modrinth.com/data/GcWjdA9I/a530ae55df5e0c405f5cf1b3e4fd6163a398bdc3.png",
+    "featured": false
   },
   {
     "id": "midnightlib",
@@ -2320,7 +2412,8 @@ const MODS = [
       "spawnanimations"
     ],
     "modrinth_url": "https://modrinth.com/mod/midnightlib",
-    "icon_url": "https://cdn.modrinth.com/data/codAaoxh/76ce92742fea39dadbf9a68a389b4690f10ebd52_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/codAaoxh/76ce92742fea39dadbf9a68a389b4690f10ebd52_96.webp",
+    "featured": false
   },
   {
     "id": "mob_heads",
@@ -2342,7 +2435,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/mob-heads",
-    "icon_url": "https://cdn.modrinth.com/data/82uI0waE/ac008714a8b52cec9938023e94dd47ff8df79a1c_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/82uI0waE/ac008714a8b52cec9938023e94dd47ff8df79a1c_96.webp",
+    "featured": false
   },
   {
     "id": "modmenu",
@@ -2390,7 +2484,8 @@ const MODS = [
       "zoomify"
     ],
     "modrinth_url": "https://modrinth.com/mod/modmenu",
-    "icon_url": "https://cdn.modrinth.com/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png"
+    "icon_url": "https://cdn.modrinth.com/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png",
+    "featured": false
   },
   {
     "id": "modernfix",
@@ -2410,7 +2505,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/modernfix-mvus",
-    "icon_url": "https://cdn.modrinth.com/data/TjSm1wrD/e1d2433476995be1b1a94ff1afaf6167752274ae_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/TjSm1wrD/e1d2433476995be1b1a94ff1afaf6167752274ae_96.webp",
+    "featured": false
   },
   {
     "id": "more_armor_trims",
@@ -2432,7 +2528,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/more-armor-trims",
-    "icon_url": "https://cdn.modrinth.com/data/FGNYBAJ6/b1f3040a60407c173d63438dcb8128b85e1e6fb9_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/FGNYBAJ6/b1f3040a60407c173d63438dcb8128b85e1e6fb9_96.webp",
+    "featured": false
   },
   {
     "id": "mavapi",
@@ -2456,7 +2553,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/mavapi",
-    "icon_url": "https://cdn.modrinth.com/data/t4Ybtys2/f84f9785be9ce709aa25c1fd1ce93d91d086726d.png"
+    "icon_url": "https://cdn.modrinth.com/data/t4Ybtys2/f84f9785be9ce709aa25c1fd1ce93d91d086726d.png",
+    "featured": false
   },
   {
     "id": "mavm",
@@ -2479,7 +2577,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/mavm",
-    "icon_url": "https://cdn.modrinth.com/data/zitu8weW/1c5c0ba1b3afa8889e8bbe152df5e2e5b13a2a92_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/zitu8weW/1c5c0ba1b3afa8889e8bbe152df5e2e5b13a2a92_96.webp",
+    "featured": false
   },
   {
     "id": "moreculling",
@@ -2504,7 +2603,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/moreculling",
-    "icon_url": "https://cdn.modrinth.com/data/51shyZVL/c51b07193b56e952269ef50101d12aecba2b4747_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/51shyZVL/c51b07193b56e952269ef50101d12aecba2b4747_96.webp",
+    "featured": false
   },
   {
     "id": "moredelight",
@@ -2528,7 +2628,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/more-delight",
-    "icon_url": "https://cdn.modrinth.com/data/znHQQtuU/a0b97c0306ac9507bca7b81059fb146051596e08.gif"
+    "icon_url": "https://cdn.modrinth.com/data/znHQQtuU/a0b97c0306ac9507bca7b81059fb146051596e08.gif",
+    "featured": false
   },
   {
     "id": "moremobs",
@@ -2551,7 +2652,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/more-mobs",
-    "icon_url": "https://cdn.modrinth.com/data/HJR6V0I2/2bcfe9433294aa506365749346912cf947ce6627.png"
+    "icon_url": "https://cdn.modrinth.com/data/HJR6V0I2/2bcfe9433294aa506365749346912cf947ce6627.png",
+    "featured": false
   },
   {
     "id": "morevillagers",
@@ -2577,7 +2679,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/more-villagers-re-employed",
-    "icon_url": "https://cdn.modrinth.com/data/1fOqTPRO/d8a57de52ca0b9693b4ca704d1fda946309d4e05.gif"
+    "icon_url": "https://cdn.modrinth.com/data/1fOqTPRO/d8a57de52ca0b9693b4ca704d1fda946309d4e05.gif",
+    "featured": false
   },
   {
     "id": "mousetweaks",
@@ -2599,7 +2702,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/mouse-tweaks",
-    "icon_url": "https://cdn.modrinth.com/data/aC3cM3Vq/6c0eaa4e60a9c87f4766f222ff63286f09da32c0_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/aC3cM3Vq/6c0eaa4e60a9c87f4766f222ff63286f09da32c0_96.webp",
+    "featured": false
   },
   {
     "id": "mythicupgrades",
@@ -2624,7 +2728,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/mythic-upgrades",
-    "icon_url": "https://cdn.modrinth.com/data/ERH7cFoy/d0612edf4ddd44bfdc9e0e240b5a3eb66a14569a.png"
+    "icon_url": "https://cdn.modrinth.com/data/ERH7cFoy/d0612edf4ddd44bfdc9e0e240b5a3eb66a14569a.png",
+    "featured": false
   },
   {
     "id": "naturally_trimmed",
@@ -2649,7 +2754,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/naturally-trimmed",
-    "icon_url": "https://cdn.modrinth.com/data/hHVaPgFK/b98775e01a4a0eaddbf760920fec1fb1ee939410_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/hHVaPgFK/b98775e01a4a0eaddbf760920fec1fb1ee939410_96.webp",
+    "featured": false
   },
   {
     "id": "naturescompass",
@@ -2671,7 +2777,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/natures-compass",
-    "icon_url": "https://cdn.modrinth.com/data/fPetb5Kh/95e4110a4cf600843c4ba9d545cc1b60e2c00eaa.png"
+    "icon_url": "https://cdn.modrinth.com/data/fPetb5Kh/95e4110a4cf600843c4ba9d545cc1b60e2c00eaa.png",
+    "featured": false
   },
   {
     "id": "notenoughanimations",
@@ -2693,7 +2800,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/not-enough-animations",
-    "icon_url": "https://cdn.modrinth.com/data/MPCX6s5C/b97fd5f7a893165052408b747286d6eb38d57abb_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/MPCX6s5C/b97fd5f7a893165052408b747286d6eb38d57abb_96.webp",
+    "featured": false
   },
   {
     "id": "nvidium",
@@ -2715,7 +2823,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/nvidium",
-    "icon_url": "https://cdn.modrinth.com/data/SfMw2IZN/2db76d464a0f67cdb9e30fd99040eb096ac62016_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/SfMw2IZN/2db76d464a0f67cdb9e30fd99040eb096ac62016_96.webp",
+    "featured": false
   },
   {
     "id": "optigui",
@@ -2740,7 +2849,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/optigui",
-    "icon_url": "https://cdn.modrinth.com/data/JuksLGBQ/5e7e96524f7a7bcd8fb8936da34f8a26fb5c6a41_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/JuksLGBQ/5e7e96524f7a7bcd8fb8936da34f8a26fb5c6a41_96.webp",
+    "featured": false
   },
   {
     "id": "overlaylib",
@@ -2764,7 +2874,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/overlaylib",
-    "icon_url": "https://cdn.modrinth.com/data/M1B8mLoH/c9ad1de432208c954241df438c4b9e8b36984c89_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/M1B8mLoH/c9ad1de432208c954241df438c4b9e8b36984c89_96.webp",
+    "featured": false
   },
   {
     "id": "packed_packs",
@@ -2786,7 +2897,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/packed-packs",
-    "icon_url": "https://cdn.modrinth.com/data/8Pq6Exn2/ddfa6a6bc6bc282160fa92b70df711fab6948d01.png"
+    "icon_url": "https://cdn.modrinth.com/data/8Pq6Exn2/ddfa6a6bc6bc282160fa92b70df711fab6948d01.png",
+    "featured": false
   },
   {
     "id": "paginatedadvancements",
@@ -2809,7 +2921,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/paginatedadvancements",
-    "icon_url": "https://cdn.modrinth.com/data/pJogNFap/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/pJogNFap/icon.png",
+    "featured": false
   },
   {
     "id": "particle_effects",
@@ -2831,7 +2944,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/particle-effects",
-    "icon_url": "https://cdn.modrinth.com/data/PLAGcSFJ/a1c206381f51a0fb2bf5e5e38bb850392b31141b_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/PLAGcSFJ/a1c206381f51a0fb2bf5e5e38bb850392b31141b_96.webp",
+    "featured": false
   },
   {
     "id": "patpat",
@@ -2853,7 +2967,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/patpat",
-    "icon_url": "https://cdn.modrinth.com/data/dw7LChq9/125417ed34406a044dd53fdf9a7fdfe210a6fcf0_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/dw7LChq9/125417ed34406a044dd53fdf9a7fdfe210a6fcf0_96.webp",
+    "featured": false
   },
   {
     "id": "pickupnotifier",
@@ -2877,7 +2992,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/pick-up-notifier",
-    "icon_url": "https://cdn.modrinth.com/data/ZX66K16c/769d7c843339981c1f8e5eec5ff983294a3671fb_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/ZX66K16c/769d7c843339981c1f8e5eec5ff983294a3671fb_96.webp",
+    "featured": false
   },
   {
     "id": "pingwheel",
@@ -2899,7 +3015,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/ping-wheel",
-    "icon_url": "https://cdn.modrinth.com/data/QQXAdCzh/6d15088ddd1e07abcba1a2e796d1f9c7a3138b1d_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/QQXAdCzh/6d15088ddd1e07abcba1a2e796d1f9c7a3138b1d_96.webp",
+    "featured": false
   },
   {
     "id": "placeholder-api",
@@ -2919,7 +3036,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/placeholder-api",
-    "icon_url": "https://cdn.modrinth.com/data/eXts2L7r/e9c9990896e6422bffc5f73d2c41b8f077348f83.png"
+    "icon_url": "https://cdn.modrinth.com/data/eXts2L7r/e9c9990896e6422bffc5f73d2c41b8f077348f83.png",
+    "featured": false
   },
   {
     "id": "player_animation_library",
@@ -2946,7 +3064,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/player-animation-library",
-    "icon_url": "https://cdn.modrinth.com/data/ha1mEyJS/c1fae260a9377cfb05692f01135b6ca2b7b682c7_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/ha1mEyJS/c1fae260a9377cfb05692f01135b6ca2b7b682c7_96.webp",
+    "featured": false
   },
   {
     "id": "pneumonocore",
@@ -2971,7 +3090,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/pneumono_core",
-    "icon_url": "https://cdn.modrinth.com/data/ZLKQjA7t/199da8b16a46d6c527e2ee17077036d4eb2f1588.png"
+    "icon_url": "https://cdn.modrinth.com/data/ZLKQjA7t/199da8b16a46d6c527e2ee17077036d4eb2f1588.png",
+    "featured": false
   },
   {
     "id": "polytone",
@@ -2993,7 +3113,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/polytone",
-    "icon_url": "https://cdn.modrinth.com/data/3qAYkBMB/828636188cd2427eb1158dd1e0bddd42d318ccbf_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/3qAYkBMB/828636188cd2427eb1158dd1e0bddd42d318ccbf_96.webp",
+    "featured": false
   },
   {
     "id": "prickle",
@@ -3018,7 +3139,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/prickle",
-    "icon_url": "https://cdn.modrinth.com/data/aaRl8GiW/36749d1d2d87d14d7f703b18e8726c7b78057abb.png"
+    "icon_url": "https://cdn.modrinth.com/data/aaRl8GiW/36749d1d2d87d14d7f703b18e8726c7b78057abb.png",
+    "featured": false
   },
   {
     "id": "puzzleslib",
@@ -3047,7 +3169,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/puzzles-lib",
-    "icon_url": "https://cdn.modrinth.com/data/QAGBst4M/c78216c61f65b6ce82593e4e92e9c358402bb524_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/QAGBst4M/c78216c61f65b6ce82593e4e92e9c358402bb524_96.webp",
+    "featured": false
   },
   {
     "id": "randomvillagenames",
@@ -3072,7 +3195,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/random-village-names",
-    "icon_url": "https://cdn.modrinth.com/data/N0ytbukx/a37c0884f37e224b236536869c27580cf4bf5784_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/N0ytbukx/a37c0884f37e224b236536869c27580cf4bf5784_96.webp",
+    "featured": false
   },
   {
     "id": "reachbehind",
@@ -3096,7 +3220,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/reach-behind",
-    "icon_url": "https://cdn.modrinth.com/data/MDljZreW/d3127b4ea0bd4dd304192fbcacc7a693d424d3cb_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/MDljZreW/d3127b4ea0bd4dd304192fbcacc7a693d424d3cb_96.webp",
+    "featured": false
   },
   {
     "id": "reeses-sodium-options",
@@ -3123,7 +3248,8 @@ const MODS = [
       "sodium-extra"
     ],
     "modrinth_url": "https://modrinth.com/mod/reeses-sodium-options",
-    "icon_url": "https://cdn.modrinth.com/data/Bh37bMuy/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/Bh37bMuy/icon.png",
+    "featured": false
   },
   {
     "id": "repurposed_structures",
@@ -3149,7 +3275,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/repurposed-structures-fabric",
-    "icon_url": "https://cdn.modrinth.com/data/muf0XoRe/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/muf0XoRe/icon.png",
+    "featured": true
   },
   {
     "id": "repurposed_structures_farmers_delight_compat",
@@ -3172,7 +3299,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/repurposed-structures-farmers-delight-compat",
-    "icon_url": "https://cdn.modrinth.com/data/P5wB88AS/575dfe8d40918fb9825be29187a79ceaa22509d8_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/P5wB88AS/575dfe8d40918fb9825be29187a79ceaa22509d8_96.webp",
+    "featured": false
   },
   {
     "id": "repurposed_structures_friends_and_foes_compat",
@@ -3195,7 +3323,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/repurposed-structures-friends-and-foes-compat",
-    "icon_url": "https://cdn.modrinth.com/data/UYd23ZmY/84fb4a54d4f484b1093cc43e3b1d18706bd8d470_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/UYd23ZmY/84fb4a54d4f484b1093cc43e3b1d18706bd8d470_96.webp",
+    "featured": false
   },
   {
     "id": "respackopts",
@@ -3217,7 +3346,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/respackopts",
-    "icon_url": "https://cdn.modrinth.com/data/TiF5QWZY/16b68a9cf4a526e0b03e77310c98040ac2e6225c_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/TiF5QWZY/16b68a9cf4a526e0b03e77310c98040ac2e6225c_96.webp",
+    "featured": false
   },
   {
     "id": "resourcefullib",
@@ -3242,7 +3372,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/resourceful-lib",
-    "icon_url": "https://cdn.modrinth.com/data/G1hIVOrD/52130f41d05162ce6d7d1832a47d3c238d102632_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/G1hIVOrD/52130f41d05162ce6d7d1832a47d3c238d102632_96.webp",
+    "featured": false
   },
   {
     "id": "rightclickharvest",
@@ -3265,7 +3396,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/rightclickharvest",
-    "icon_url": "https://cdn.modrinth.com/data/Cnejf5xM/b6e535989217836c2adc49b06f4b3c8f429afda3_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/Cnejf5xM/b6e535989217836c2adc49b06f4b3c8f429afda3_96.webp",
+    "featured": false
   },
   {
     "id": "rusticdelight",
@@ -3289,7 +3421,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/rustic-delight",
-    "icon_url": "https://cdn.modrinth.com/data/foa4fGIH/eecc99e281522f2291081c48176f0faa84c107bc.png"
+    "icon_url": "https://cdn.modrinth.com/data/foa4fGIH/eecc99e281522f2291081c48176f0faa84c107bc.png",
+    "featured": false
   },
   {
     "id": "scribble",
@@ -3311,7 +3444,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/scribble",
-    "icon_url": "https://cdn.modrinth.com/data/yXAvIk0x/cf63f0295c57f6f2f14c51d8e1075de19e9f4f76.png"
+    "icon_url": "https://cdn.modrinth.com/data/yXAvIk0x/cf63f0295c57f6f2f14c51d8e1075de19e9f4f76.png",
+    "featured": false
   },
   {
     "id": "searchables",
@@ -3335,7 +3469,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/searchables",
-    "icon_url": "https://cdn.modrinth.com/data/fuuu3xnx/206971d54b37b30a2e728b1c194f7f096963d05a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/fuuu3xnx/206971d54b37b30a2e728b1c194f7f096963d05a_96.webp",
+    "featured": false
   },
   {
     "id": "shogi",
@@ -3359,7 +3494,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/shogi",
-    "icon_url": "https://cdn.modrinth.com/data/bi4iCmsw/b790dcba3a85283635a66e8940da5880f3baee0e_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/bi4iCmsw/b790dcba3a85283635a66e8940da5880f3baee0e_96.webp",
+    "featured": false
   },
   {
     "id": "simple_datapacks",
@@ -3379,7 +3515,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/simple-datapacks",
-    "icon_url": "https://cdn.modrinth.com/data/Re6xQ62Z/a977d9e8274278d93fe8488eeaec36464240a662.png"
+    "icon_url": "https://cdn.modrinth.com/data/Re6xQ62Z/a977d9e8274278d93fe8488eeaec36464240a662.png",
+    "featured": false
   },
   {
     "id": "voicechat",
@@ -3403,7 +3540,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/simple-voice-chat",
-    "icon_url": "https://cdn.modrinth.com/data/9eGKb6K1/icon.png"
+    "icon_url": "https://cdn.modrinth.com/data/9eGKb6K1/icon.png",
+    "featured": true
   },
   {
     "id": "skeletonhorsespawn",
@@ -3426,7 +3564,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/skeleton-horse-spawn",
-    "icon_url": "https://cdn.modrinth.com/data/ZcqNoW8j/d9a8c687ac9a02f2655e61ab73bfdef0573ba2b8_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/ZcqNoW8j/d9a8c687ac9a02f2655e61ab73bfdef0573ba2b8_96.webp",
+    "featured": false
   },
   {
     "id": "sodium",
@@ -3458,7 +3597,8 @@ const MODS = [
       "moreculling"
     ],
     "modrinth_url": "https://modrinth.com/mod/sodium",
-    "icon_url": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp",
+    "featured": false
   },
   {
     "id": "sodium-extra",
@@ -3484,7 +3624,8 @@ const MODS = [
       "reeses-sodium-options"
     ],
     "modrinth_url": "https://modrinth.com/mod/sodium-extra",
-    "icon_url": "https://cdn.modrinth.com/data/PtjYWJkn/0df4fb22a11e1dcb5e83cb0aadd275b571aca7a9_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/PtjYWJkn/0df4fb22a11e1dcb5e83cb0aadd275b571aca7a9_96.webp",
+    "featured": false
   },
   {
     "id": "sspb",
@@ -3506,7 +3647,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/sodium-shadowy-path-blocks",
-    "icon_url": "https://cdn.modrinth.com/data/EIa1eiMm/7ea3bc26470ba1f45b1c980d5058b033a752396b_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/EIa1eiMm/7ea3bc26470ba1f45b1c980d5058b033a752396b_96.webp",
+    "featured": false
   },
   {
     "id": "spawnanimations",
@@ -3529,7 +3671,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/spawn-animations",
-    "icon_url": "https://cdn.modrinth.com/data/zrzYrlm0/f1d1fea6dd27a539d04c46fdd98d6efcfeb90b9a.png"
+    "icon_url": "https://cdn.modrinth.com/data/zrzYrlm0/f1d1fea6dd27a539d04c46fdd98d6efcfeb90b9a.png",
+    "featured": false
   },
   {
     "id": "mr_speed_happyghast",
@@ -3551,7 +3694,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/speed-happy-ghast",
-    "icon_url": "https://cdn.modrinth.com/data/2cqWhewT/09c92d27450e184b99f3dfa1fac35141b268f383_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/2cqWhewT/09c92d27450e184b99f3dfa1fac35141b268f383_96.webp",
+    "featured": false
   },
   {
     "id": "spyglass_improvements",
@@ -3573,7 +3717,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/spyglass-improvements",
-    "icon_url": "https://cdn.modrinth.com/data/Z6ykjRlM/933fbb18c342abb12fb211c10d8e5600be33bfcc_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/Z6ykjRlM/933fbb18c342abb12fb211c10d8e5600be33bfcc_96.webp",
+    "featured": false
   },
   {
     "id": "status-effect-bars",
@@ -3597,7 +3742,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/status-effect-bars",
-    "icon_url": "https://cdn.modrinth.com/data/x02cBj9Y/7ee93fac37512f4f04aa82f15deada7b2ca9269f.png"
+    "icon_url": "https://cdn.modrinth.com/data/x02cBj9Y/7ee93fac37512f4f04aa82f15deada7b2ca9269f.png",
+    "featured": false
   },
   {
     "id": "storagedelight",
@@ -3619,7 +3765,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/storage-delight",
-    "icon_url": "https://cdn.modrinth.com/data/LTTvOp5L/ea2f931c89c74b97d60df0a8048bea679a8123a8.gif"
+    "icon_url": "https://cdn.modrinth.com/data/LTTvOp5L/ea2f931c89c74b97d60df0a8048bea679a8123a8.gif",
+    "featured": false
   },
   {
     "id": "subtlyd",
@@ -3641,7 +3788,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/subtly-dungeons",
-    "icon_url": "https://cdn.modrinth.com/data/c65QHwL5/0f17251279ae1f8594095ca738bdad4245a238a5_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/c65QHwL5/0f17251279ae1f8594095ca738bdad4245a238a5_96.webp",
+    "featured": false
   },
   {
     "id": "mr_svm_powers",
@@ -3663,7 +3811,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/svm-powers",
-    "icon_url": "https://cdn.modrinth.com/data/34GeP0Mj/ecdeb73d993935eb7260e4af864622906504228b.gif"
+    "icon_url": "https://cdn.modrinth.com/data/34GeP0Mj/ecdeb73d993935eb7260e4af864622906504228b.gif",
+    "featured": false
   },
   {
     "id": "supermartijn642configlib",
@@ -3687,7 +3836,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/supermartijn642s-config-lib",
-    "icon_url": "https://cdn.modrinth.com/data/LN9BxssP/ad25597dd1b10b49cdfbc97c70d401e3158000f7_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/LN9BxssP/ad25597dd1b10b49cdfbc97c70d401e3158000f7_96.webp",
+    "featured": false
   },
   {
     "id": "tcdcommons",
@@ -3711,7 +3861,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/tcdcommons",
-    "icon_url": "https://cdn.modrinth.com/data/Eldc1g37/36f2c7c76a7fc63e827bc20657853b7f1d9e4060.png"
+    "icon_url": "https://cdn.modrinth.com/data/Eldc1g37/36f2c7c76a7fc63e827bc20657853b7f1d9e4060.png",
+    "featured": false
   },
   {
     "id": "terrablender",
@@ -3735,7 +3886,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/terrablender",
-    "icon_url": "https://cdn.modrinth.com/data/kkmrDlKT/ffe690c604b123c63ee77a5baf76cf008cb73663.png"
+    "icon_url": "https://cdn.modrinth.com/data/kkmrDlKT/ffe690c604b123c63ee77a5baf76cf008cb73663.png",
+    "featured": false
   },
   {
     "id": "terralith",
@@ -3760,7 +3912,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/terralith",
-    "icon_url": "https://cdn.modrinth.com/data/8oi3bsk5/1959d924a1088944bbf07a06ba523726112d7e7a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/8oi3bsk5/1959d924a1088944bbf07a06ba523726112d7e7a_96.webp",
+    "featured": true
   },
   {
     "id": "t_and_t",
@@ -3785,7 +3938,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/towns-and-towers",
-    "icon_url": "https://cdn.modrinth.com/data/DjLobEOy/f7f552ec019c9ad8b777c9ab5eecbb95da8707a0_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/DjLobEOy/f7f552ec019c9ad8b777c9ab5eecbb95da8707a0_96.webp",
+    "featured": true
   },
   {
     "id": "travelersbackpack",
@@ -3808,7 +3962,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/travelersbackpack",
-    "icon_url": "https://cdn.modrinth.com/data/rlloIFEV/271b2133a315ee3d864ea5a429472f0e71591fe3_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/rlloIFEV/271b2133a315ee3d864ea5a429472f0e71591fe3_96.webp",
+    "featured": true
   },
   {
     "id": "ubesdelight",
@@ -3831,7 +3986,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/ubes-delight",
-    "icon_url": "https://cdn.modrinth.com/data/PYjpoAys/747de679aefe6e668c153745f441ff1e16597907.png"
+    "icon_url": "https://cdn.modrinth.com/data/PYjpoAys/747de679aefe6e668c153745f441ff1e16597907.png",
+    "featured": false
   },
   {
     "id": "villagernames",
@@ -3854,7 +4010,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/villager-names-serilum",
-    "icon_url": "https://cdn.modrinth.com/data/gqRXDo8B/44a24693e277ae99295054691d0acbbbf0d56774_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/gqRXDo8B/44a24693e277ae99295054691d0acbbbf0d56774_96.webp",
+    "featured": false
   },
   {
     "id": "villagerapi",
@@ -3878,7 +4035,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/villagerapi",
-    "icon_url": "https://cdn.modrinth.com/data/9Tp2Becg/fa7c6eb62b02fe517965b30b3cf7ecea35d59716.png"
+    "icon_url": "https://cdn.modrinth.com/data/9Tp2Becg/fa7c6eb62b02fe517965b30b3cf7ecea35d59716.png",
+    "featured": false
   },
   {
     "id": "visuality",
@@ -3901,7 +4059,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/visuality",
-    "icon_url": "https://cdn.modrinth.com/data/rI0hvYcd/5c866549318e907bbfe0d525afe43cb17a36a481.png"
+    "icon_url": "https://cdn.modrinth.com/data/rI0hvYcd/5c866549318e907bbfe0d525afe43cb17a36a481.png",
+    "featured": false
   },
   {
     "id": "voxy",
@@ -3928,7 +4087,8 @@ const MODS = [
       "voxyworldgenv2"
     ],
     "modrinth_url": "https://modrinth.com/mod/voxy",
-    "icon_url": "https://cdn.modrinth.com/data/fxxUqruK/2a4159b1ff6ecba43bf895d6abee6f724a0e03c0_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/fxxUqruK/2a4159b1ff6ecba43bf895d6abee6f724a0e03c0_96.webp",
+    "featured": false
   },
   {
     "id": "voxyworldgenv2",
@@ -3952,7 +4112,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/voxy-worldgen",
-    "icon_url": "https://cdn.modrinth.com/data/xT0lnNE9/4ae60567dd5687b503ed55227817c433959d5601_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/xT0lnNE9/4ae60567dd5687b503ed55227817c433959d5601_96.webp",
+    "featured": false
   },
   {
     "id": "voxyserver",
@@ -3978,7 +4139,8 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/voxyserver",
-    "icon_url": "https://cdn.modrinth.com/data/fNtGd1cx/93fb864b5e98bc72e5392899525f33c0395b4c67_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/fNtGd1cx/93fb864b5e98bc72e5392899525f33c0395b4c67_96.webp",
+    "featured": false
   },
   {
     "id": "waystones",
@@ -4002,7 +4164,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/waystones",
-    "icon_url": "https://cdn.modrinth.com/data/LOpKHB2A/d56c030a875582aff5bab477ddcfec317a1610f0_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/LOpKHB2A/d56c030a875582aff5bab477ddcfec317a1610f0_96.webp",
+    "featured": true
   },
   {
     "id": "worldplaytimereborn",
@@ -4025,7 +4188,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/world-play-time-reborn",
-    "icon_url": "https://cdn.modrinth.com/data/NDcygmHf/0f011a9d7d5f18fb0395888fbd85d783ad676a84_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/NDcygmHf/0f011a9d7d5f18fb0395888fbd85d783ad676a84_96.webp",
+    "featured": false
   },
   {
     "id": "xaerominimap",
@@ -4047,7 +4211,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/xaeros-minimap",
-    "icon_url": "https://cdn.modrinth.com/data/1bokaNcj/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/1bokaNcj/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+    "featured": true
   },
   {
     "id": "xaeroworldmap",
@@ -4069,7 +4234,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/xaeros-world-map",
-    "icon_url": "https://cdn.modrinth.com/data/NcUtCpym/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/NcUtCpym/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+    "featured": true
   },
   {
     "id": "xpbook",
@@ -4092,7 +4258,8 @@ const MODS = [
     "recommends": [],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/xp-tome",
-    "icon_url": "https://cdn.modrinth.com/data/AnpW69o3/03da4b754816b4491c26b5c7d52792e228c10503.png"
+    "icon_url": "https://cdn.modrinth.com/data/AnpW69o3/03da4b754816b4491c26b5c7d52792e228c10503.png",
+    "featured": false
   },
   {
     "id": "yet_another_config_lib_v3",
@@ -4122,7 +4289,8 @@ const MODS = [
       "naturally_trimmed"
     ],
     "modrinth_url": "https://modrinth.com/mod/yacl",
-    "icon_url": "https://cdn.modrinth.com/data/1eAoo2KR/08c0cd32515e260f4bb20bbc0696510041523f9a_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/1eAoo2KR/08c0cd32515e260f4bb20bbc0696510041523f9a_96.webp",
+    "featured": false
   },
   {
     "id": "zoomify",
@@ -4147,6 +4315,29 @@ const MODS = [
     ],
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/zoomify",
-    "icon_url": "https://cdn.modrinth.com/data/w7ThoJFB/e2de67a0bfb9e8aa2347982ab3ec5463f26cca31_96.webp"
+    "icon_url": "https://cdn.modrinth.com/data/w7ThoJFB/e2de67a0bfb9e8aa2347982ab3ec5463f26cca31_96.webp",
+    "featured": false
   }
+];
+
+const FEATURED_IDS = [
+  "biomesoplenty",
+  "terralith",
+  "repurposed_structures",
+  "mr_dungeons_andtaverns",
+  "t_and_t",
+  "waystones",
+  "mr_edf_remastered",
+  "alexsmobs",
+  "friendsandfoes",
+  "farmersdelight",
+  "bettercombat",
+  "combat_roll",
+  "travelersbackpack",
+  "voicechat",
+  "emotecraft",
+  "xaerominimap",
+  "xaeroworldmap",
+  "jade",
+  "jei"
 ];
