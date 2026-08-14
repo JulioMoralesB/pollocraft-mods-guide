@@ -12,11 +12,16 @@
     items:    { label: "Objetos y Decoración",       icon: "🎒", color: "var(--cat-items)" },
     social:   { label: "Multijugador y Social",      icon: "👥", color: "var(--cat-social)" },
     building: { label: "Construcción y Mapas",       icon: "🧱", color: "var(--cat-building)" },
-    lib:      { label: "Librería técnica",           icon: "🔧", color: "var(--cat-lib)" }
+    lib:      { label: "Librería técnica",           icon: "🔧", color: "var(--cat-lib)" },
+    datapack: { label: "Datapack",                   icon: "📦", color: "var(--cat-datapack)" }
   };
 
+  // MODS viene de data.js (generado del fabric.mod.json real de cada mod).
+  // DATAPACKS viene de datapacks.js (curado a mano, no hay fabric.mod.json que extraer).
+  var ALL_ITEMS = MODS.concat(typeof DATAPACKS !== "undefined" ? DATAPACKS : []);
+
   var byId = {};
-  MODS.forEach(function (m) { byId[m.id] = m; });
+  ALL_ITEMS.forEach(function (m) { byId[m.id] = m; });
 
   var state = {
     query: "",
@@ -46,9 +51,9 @@
 
   function buildFilters() {
     var counts = {};
-    MODS.forEach(function (m) { counts[m.category] = (counts[m.category] || 0) + 1; });
+    ALL_ITEMS.forEach(function (m) { counts[m.category] = (counts[m.category] || 0) + 1; });
 
-    var allBtn = makeFilterBtn(null, "Todos", "⭐", "var(--accent)", MODS.length);
+    var allBtn = makeFilterBtn(null, "Todos", "⭐", "var(--accent)", ALL_ITEMS.length);
     filtersEl.appendChild(allBtn);
 
     Object.keys(CATEGORY_META).forEach(function (cat) {
@@ -83,7 +88,7 @@
 
   function render() {
     var q = state.query.trim().toLowerCase();
-    var filtered = MODS.filter(function (m) {
+    var filtered = ALL_ITEMS.filter(function (m) {
       if (state.category && m.category !== state.category) return false;
       return matches(m, q);
     });
@@ -100,9 +105,9 @@
     });
 
     noResults.hidden = filtered.length !== 0;
-    resultsCount.textContent = filtered.length === MODS.length
-      ? "Mostrando los " + MODS.length + " mods"
-      : "Mostrando " + filtered.length + " de " + MODS.length + " mods";
+    resultsCount.textContent = filtered.length === ALL_ITEMS.length
+      ? "Mostrando los " + ALL_ITEMS.length + " mods y datapacks"
+      : "Mostrando " + filtered.length + " de " + ALL_ITEMS.length + " mods y datapacks";
   }
 
   function renderCard(m) {

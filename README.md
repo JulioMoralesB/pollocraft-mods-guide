@@ -53,6 +53,13 @@ se escriben a mano:
 > el juego, estos archivos quedan desactualizados y hay que regenerarlos. Si no,
 > la guía dirá cosas que ya no son ciertas.
 
+`datapacks.js` es la excepción: los datapacks (carpeta `datapacks/` del mundo en
+el servidor, ver `VanillaTweaks_.../` en la raíz del proyecto) no traen un
+`fabric.mod.json` del que extraer nada, así que esa lista **sí se escribe a
+mano** y hay que actualizarla directamente cada vez que se agregue o quite un
+datapack. Se muestran junto a los mods en `index.html`, bajo la categoría
+"Datapack".
+
 ## Estructura
 
 ```
@@ -64,7 +71,7 @@ keybinds.css        Títulos de sección compartidos entre páginas
 keyboard.css        Diagramas de teclado, mouse y control
 join.css            Estilos propios de la página de instalación
 theme.js            Botón de tema claro/oscuro, compartido por las 3 páginas
-script.js           Lógica de la página de mods
+script.js           Lógica de la página de mods (mods + datapacks)
 keybinds.js         Buscador de acciones
 keyboard.js         Teclado y mouse interactivos
 keyboard-layout.js  Distribución física del teclado (español latinoamericano)

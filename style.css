@@ -27,6 +27,7 @@
   --cat-social: #be185d;
   --cat-building: #0e7490;
   --cat-lib: #4b5563;
+  --cat-datapack: #65a30d;
 
   /* Explicit key/button states, so we never rely on colour-mix guesswork. */
   --key-used-bg: #e4f3ea;
