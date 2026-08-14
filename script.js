@@ -37,8 +37,11 @@
   var modCountEl2 = document.getElementById("mod-count-2");
   var featuredGrid = document.getElementById("featured-grid");
 
-  modCountEl.textContent = MODS.length;
-  if (modCountEl2) modCountEl2.textContent = MODS.length;
+  // "Cuántos mods usa el servidor" debe contar solo los activos: los
+  // desactivados siguen listados abajo, pero no están corriendo de verdad.
+  var enabledModCount = MODS.filter(function (m) { return m.enabled; }).length;
+  modCountEl.textContent = enabledModCount;
+  if (modCountEl2) modCountEl2.textContent = enabledModCount;
 
   function badge(cat) {
     var meta = CATEGORY_META[cat] || { label: cat, icon: "❓", color: "var(--cat-lib)" };
