@@ -1404,6 +1404,31 @@ const MODS = [
     "featured": true
   },
   {
+    "id": "enhanced-cats",
+    "name": "Enhanced Cats",
+    "jar": "EnhancedCats-26.2-1.1.jar",
+    "enabled": true,
+    "version": "1.1",
+    "authors": [
+      "IslandAggravated"
+    ],
+    "category": "mobs",
+    "category_label": "Criaturas y Aldeanos",
+    "desc_es": "Le da más variedad y detalle a los gatos: nuevas poses, animaciones y comportamientos.",
+    "desc_original": "Makes cats a little less boring",
+    "depends": [
+      "fabric-api",
+      "fabric-language-kotlin",
+      "geckolib"
+    ],
+    "required_by": [],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/enhanced-cats",
+    "icon_url": "https://cdn.modrinth.com/data/e2R0wxyL/62721d447c7c916b96e59edf7fe49a58eb9455a3_96.webp",
+    "featured": false
+  },
+  {
     "id": "entity_model_features",
     "name": "Entity Model Features",
     "jar": "entity_model_features-3.2.6-26.2-fabric.jar",
@@ -1573,6 +1598,7 @@ const MODS = [
       "elytratrims",
       "emotecraft",
       "enchdesc",
+      "enhanced-cats",
       "entityculling",
       "explorify",
       "explosiveenhancement",
@@ -1582,6 +1608,7 @@ const MODS = [
       "formations",
       "freecam",
       "friendsandfoes",
+      "geckolib",
       "glitchcore",
       "gravestones",
       "guardvillagers",
@@ -1690,6 +1717,7 @@ const MODS = [
     "depends": [],
     "required_by": [
       "elytratrims",
+      "enhanced-cats",
       "optigui",
       "zoomify"
     ],
@@ -1934,6 +1962,31 @@ const MODS = [
     "recommended_by": [],
     "modrinth_url": "https://modrinth.com/mod/friends-and-foes-beekeeper-hut-fabric",
     "icon_url": "https://cdn.modrinth.com/data/Kt4RVKEd/91f7325ef5a1a9a1458a8695dde533225b6188fb_96.webp",
+    "featured": false
+  },
+  {
+    "id": "geckolib",
+    "name": "GeckoLib 5",
+    "jar": "geckolib-fabric-26.2-5.5.3.jar",
+    "enabled": true,
+    "version": "5.5.3",
+    "authors": [
+      "Tslat"
+    ],
+    "category": "lib",
+    "category_label": "Librería técnica",
+    "desc_es": "Motor de animaciones 3D usado por otros mods, como Enhanced Cats.",
+    "desc_original": "GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more.",
+    "depends": [
+      "fabric-api"
+    ],
+    "required_by": [
+      "enhanced-cats"
+    ],
+    "recommends": [],
+    "recommended_by": [],
+    "modrinth_url": "https://modrinth.com/mod/geckolib",
+    "icon_url": "https://cdn.modrinth.com/data/8BmcQJ2H/012d1aadbc754995de66e8c149a56aa10b63fe05_96.webp",
     "featured": false
   },
   {
